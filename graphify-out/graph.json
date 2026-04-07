@@ -1,78 +1,92 @@
 {
   "directed": false,
   "multigraph": false,
-  "graph": {
-    "hyperedges": [
-      {
-        "id": "langfuse_cross_stack",
-        "label": "Langfuse Across Java and TypeScript",
-        "nodes": [
-          "chatv2_groundedness_eval",
-          "java_langfuse_observability",
-          "concept_langfuse_observability",
-          "concept_async_fail_open"
-        ],
-        "relation": "implement",
-        "confidence": "INFERRED",
-        "confidence_score": 0.9,
-        "source_file": null
-      },
-      {
-        "id": "waf_binary_false_positive",
-        "label": "WAF Binary Data False Positive Series",
-        "nodes": [
-          "waf_upload_path_exemptions",
-          "waf_genericlfi_body_cloudfront_exemption",
-          "concept_binary_data_false_positive"
-        ],
-        "relation": "implement",
-        "confidence": "EXTRACTED",
-        "confidence_score": 1.0,
-        "source_file": null
-      },
-      {
-        "id": "image_transport_evolution",
-        "label": "Image Transport Method Evolution",
-        "nodes": [
-          "ai_studio_image_transport",
-          "vertex_server_side_image_fetch",
-          "pdf_extraction_vertex_credentials",
-          "concept_image_transport"
-        ],
-        "relation": "implement",
-        "confidence": "INFERRED",
-        "confidence_score": 0.85,
-        "source_file": null
-      },
-      {
-        "id": "control_viz_fallback",
-        "label": "Control Viz Exhaustive Fallback Chain",
-        "nodes": [
-          "control_viz_fallback_image_refusal",
-          "gpt_image_fallback_control_viz",
-          "concept_fallback_chain_pattern"
-        ],
-        "relation": "implement",
-        "confidence": "EXTRACTED",
-        "confidence_score": 1.0,
-        "source_file": null
-      },
-      {
-        "id": "hazard_eval_fixes",
-        "label": "Hazard Eval Test Infrastructure Fixes",
-        "nodes": [
-          "hazard_eval_compression",
-          "hazard_eval_model_upgrade_retry",
-          "eval_demo_double_count"
-        ],
-        "relation": "participate_in",
-        "confidence": "INFERRED",
-        "confidence_score": 0.85,
-        "source_file": null
-      }
-    ]
-  },
+  "graph": {},
   "nodes": [
+    {
+      "label": "Field1st",
+      "file_type": "document",
+      "source_file": "",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "field1st",
+      "community": 3
+    },
+    {
+      "label": "ai-orchestration",
+      "file_type": "document",
+      "source_file": "",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "pkg_ai_orchestration",
+      "community": 0
+    },
+    {
+      "label": "infra",
+      "file_type": "document",
+      "source_file": "",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "pkg_infra",
+      "community": 1
+    },
+    {
+      "label": "service",
+      "file_type": "document",
+      "source_file": "",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "pkg_service",
+      "community": 3
+    },
+    {
+      "label": "mobile",
+      "file_type": "document",
+      "source_file": "",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "pkg_mobile",
+      "community": 3
+    },
+    {
+      "label": "web",
+      "file_type": "document",
+      "source_file": "",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "pkg_web",
+      "community": 3
+    },
+    {
+      "label": "fe-common",
+      "file_type": "document",
+      "source_file": "",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "pkg_fe_common",
+      "community": 3
+    },
     {
       "label": "Chat V2 Groundedness Eval",
       "file_type": "document",
@@ -83,7 +97,7 @@
       "author": "thomas.alfonso",
       "contributor": null,
       "id": "chatv2_groundedness_eval",
-      "community": 2
+      "community": 4
     },
     {
       "label": "Guardrails Allow Hazard Queries",
@@ -95,7 +109,7 @@
       "author": "thomas.alfonso",
       "contributor": null,
       "id": "guardrails_allow_hazard_queries",
-      "community": 2
+      "community": 0
     },
     {
       "label": "Bootstrap Migration for Managed DB",
@@ -107,7 +121,7 @@
       "author": "leo.brito",
       "contributor": null,
       "id": "bootstrap_migration_managed_db",
-      "community": 6
+      "community": 0
     },
     {
       "label": "PDF Extraction Vertex Credentials Fix",
@@ -119,7 +133,7 @@
       "author": "thomas.alfonso",
       "contributor": null,
       "id": "pdf_extraction_vertex_credentials",
-      "community": 0
+      "community": 2
     },
     {
       "label": "Declarative Config and Deep Health Checks",
@@ -131,7 +145,7 @@
       "author": "leo.brito",
       "contributor": null,
       "id": "declarative_config_deep_health",
-      "community": 0
+      "community": 2
     },
     {
       "label": "Java Langfuse Observability",
@@ -143,7 +157,7 @@
       "author": "thomas.alfonso",
       "contributor": null,
       "id": "java_langfuse_observability",
-      "community": 2
+      "community": 4
     },
     {
       "label": "Tier-Aware Image Transport for Gemini Fallback",
@@ -155,7 +169,7 @@
       "author": "leo.brito",
       "contributor": null,
       "id": "ai_studio_image_transport",
-      "community": 0
+      "community": 2
     },
     {
       "label": "Restore Gemini AI Settings Catalog",
@@ -167,7 +181,7 @@
       "author": "leo.brito",
       "contributor": null,
       "id": "restore_gemini_ai_settings",
-      "community": 1
+      "community": 0
     },
     {
       "label": "Bounding Box yxyx Standardization",
@@ -179,7 +193,7 @@
       "author": "leo.brito",
       "contributor": null,
       "id": "bbox_yxyx_standardization",
-      "community": 1
+      "community": 0
     },
     {
       "label": "WAF Upload Path Exemptions",
@@ -191,7 +205,7 @@
       "author": "leo.brito",
       "contributor": null,
       "id": "waf_upload_path_exemptions",
-      "community": 3
+      "community": 1
     },
     {
       "label": "Bedrock Converse API Unification",
@@ -203,7 +217,7 @@
       "author": "leo.brito",
       "contributor": null,
       "id": "bedrock_converse_unification",
-      "community": 1
+      "community": 0
     },
     {
       "label": "Hazard Eval Compression and Result Accumulation Fix",
@@ -215,7 +229,7 @@
       "author": "leo.brito",
       "contributor": null,
       "id": "hazard_eval_compression",
-      "community": 1
+      "community": 0
     },
     {
       "label": "Hazard Eval Model Upgrade and 5xx Retry",
@@ -227,7 +241,7 @@
       "author": "leo.brito",
       "contributor": null,
       "id": "hazard_eval_model_upgrade_retry",
-      "community": 1
+      "community": 0
     },
     {
       "label": "GitHub Runner Auto-Cleanup",
@@ -239,7 +253,7 @@
       "author": "leo.brito",
       "contributor": null,
       "id": "github_runner_auto_cleanup",
-      "community": 7
+      "community": 1
     },
     {
       "label": "RTS Prod Tenant Setup",
@@ -251,7 +265,7 @@
       "author": "thomas.alfonso",
       "contributor": null,
       "id": "rts_prod_tenant_setup",
-      "community": 5
+      "community": 1
     },
     {
       "label": "Eval DEMO Double Count Fix",
@@ -263,7 +277,7 @@
       "author": "leo.brito",
       "contributor": null,
       "id": "eval_demo_double_count",
-      "community": 1
+      "community": 0
     },
     {
       "label": "Allow Philippines Access to CloudFront",
@@ -275,7 +289,7 @@
       "author": "leo.brito",
       "contributor": null,
       "id": "allow_philippines_cloudfront",
-      "community": 5
+      "community": 1
     },
     {
       "label": "Control-Viz Fallback for Image Refusal",
@@ -287,7 +301,7 @@
       "author": "leo.brito",
       "contributor": null,
       "id": "control_viz_fallback_image_refusal",
-      "community": 4
+      "community": 5
     },
     {
       "label": "GPT-image-1 Fallback for Control Viz",
@@ -299,7 +313,7 @@
       "author": "leo.brito",
       "contributor": null,
       "id": "gpt_image_fallback_control_viz",
-      "community": 4
+      "community": 5
     },
     {
       "label": "Consolidate AI Orchestration Shared Modules",
@@ -311,7 +325,7 @@
       "author": "leo.brito",
       "contributor": null,
       "id": "consolidate_ai_orch_shared_modules",
-      "community": 0
+      "community": 2
     },
     {
       "label": "Vertex Server-Side Image Fetch",
@@ -323,7 +337,7 @@
       "author": "leo.brito",
       "contributor": null,
       "id": "vertex_server_side_image_fetch",
-      "community": 0
+      "community": 2
     },
     {
       "label": "WAF GenericLFI_BODY CloudFront Exemption",
@@ -335,7 +349,7 @@
       "author": "leo.brito",
       "contributor": null,
       "id": "waf_genericlfi_body_cloudfront_exemption",
-      "community": 3
+      "community": 1
     },
     {
       "label": "Fallback Chain Pattern",
@@ -347,7 +361,7 @@
       "author": null,
       "contributor": null,
       "id": "concept_fallback_chain_pattern",
-      "community": 4
+      "community": 5
     },
     {
       "label": "Async Fail-Open Observability",
@@ -359,7 +373,7 @@
       "author": null,
       "contributor": null,
       "id": "concept_async_fail_open",
-      "community": 2
+      "community": 4
     },
     {
       "label": "Binary Data WAF False Positive",
@@ -371,7 +385,7 @@
       "author": null,
       "contributor": null,
       "id": "concept_binary_data_false_positive",
-      "community": 3
+      "community": 1
     },
     {
       "label": "Credential Initialization Timing",
@@ -383,7 +397,7 @@
       "author": null,
       "contributor": null,
       "id": "concept_credential_initialization_timing",
-      "community": 0
+      "community": 2
     },
     {
       "label": "Image Transport (gs:// vs inlineData vs signed URLs)",
@@ -395,7 +409,7 @@
       "author": null,
       "contributor": null,
       "id": "concept_image_transport",
-      "community": 0
+      "community": 2
     },
     {
       "label": "Langfuse Observability",
@@ -407,10 +421,346 @@
       "author": null,
       "contributor": null,
       "id": "concept_langfuse_observability",
-      "community": 2
+      "community": 4
     }
   ],
   "links": [
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "",
+      "source_location": null,
+      "weight": 1.5,
+      "_src": "field1st",
+      "_tgt": "pkg_ai_orchestration",
+      "source": "field1st",
+      "target": "pkg_ai_orchestration"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "",
+      "source_location": null,
+      "weight": 1.5,
+      "_src": "field1st",
+      "_tgt": "pkg_infra",
+      "source": "field1st",
+      "target": "pkg_infra"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "",
+      "source_location": null,
+      "weight": 1.5,
+      "_src": "field1st",
+      "_tgt": "pkg_service",
+      "source": "field1st",
+      "target": "pkg_service"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "",
+      "source_location": null,
+      "weight": 1.5,
+      "_src": "field1st",
+      "_tgt": "pkg_mobile",
+      "source": "field1st",
+      "target": "pkg_mobile"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "",
+      "source_location": null,
+      "weight": 1.5,
+      "_src": "field1st",
+      "_tgt": "pkg_web",
+      "source": "field1st",
+      "target": "pkg_web"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "",
+      "source_location": null,
+      "weight": 1.5,
+      "_src": "field1st",
+      "_tgt": "pkg_fe_common",
+      "source": "field1st",
+      "target": "pkg_fe_common"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "",
+      "source_location": null,
+      "weight": 1.2,
+      "_src": "pkg_ai_orchestration",
+      "_tgt": "chatv2_groundedness_eval",
+      "source": "pkg_ai_orchestration",
+      "target": "chatv2_groundedness_eval"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "",
+      "source_location": null,
+      "weight": 1.2,
+      "_src": "pkg_ai_orchestration",
+      "_tgt": "guardrails_allow_hazard_queries",
+      "source": "pkg_ai_orchestration",
+      "target": "guardrails_allow_hazard_queries"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "",
+      "source_location": null,
+      "weight": 1.2,
+      "_src": "pkg_ai_orchestration",
+      "_tgt": "bootstrap_migration_managed_db",
+      "source": "pkg_ai_orchestration",
+      "target": "bootstrap_migration_managed_db"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "",
+      "source_location": null,
+      "weight": 1.2,
+      "_src": "pkg_ai_orchestration",
+      "_tgt": "pdf_extraction_vertex_credentials",
+      "source": "pkg_ai_orchestration",
+      "target": "pdf_extraction_vertex_credentials"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "",
+      "source_location": null,
+      "weight": 1.2,
+      "_src": "pkg_ai_orchestration",
+      "_tgt": "declarative_config_deep_health",
+      "source": "pkg_ai_orchestration",
+      "target": "declarative_config_deep_health"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "",
+      "source_location": null,
+      "weight": 1.2,
+      "_src": "pkg_ai_orchestration",
+      "_tgt": "ai_studio_image_transport",
+      "source": "pkg_ai_orchestration",
+      "target": "ai_studio_image_transport"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "",
+      "source_location": null,
+      "weight": 1.2,
+      "_src": "pkg_ai_orchestration",
+      "_tgt": "restore_gemini_ai_settings",
+      "source": "pkg_ai_orchestration",
+      "target": "restore_gemini_ai_settings"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "",
+      "source_location": null,
+      "weight": 1.2,
+      "_src": "pkg_ai_orchestration",
+      "_tgt": "bbox_yxyx_standardization",
+      "source": "pkg_ai_orchestration",
+      "target": "bbox_yxyx_standardization"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "",
+      "source_location": null,
+      "weight": 1.2,
+      "_src": "pkg_ai_orchestration",
+      "_tgt": "bedrock_converse_unification",
+      "source": "pkg_ai_orchestration",
+      "target": "bedrock_converse_unification"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "",
+      "source_location": null,
+      "weight": 1.2,
+      "_src": "pkg_ai_orchestration",
+      "_tgt": "hazard_eval_compression",
+      "source": "pkg_ai_orchestration",
+      "target": "hazard_eval_compression"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "",
+      "source_location": null,
+      "weight": 1.2,
+      "_src": "pkg_ai_orchestration",
+      "_tgt": "hazard_eval_model_upgrade_retry",
+      "source": "pkg_ai_orchestration",
+      "target": "hazard_eval_model_upgrade_retry"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "",
+      "source_location": null,
+      "weight": 1.2,
+      "_src": "pkg_ai_orchestration",
+      "_tgt": "eval_demo_double_count",
+      "source": "pkg_ai_orchestration",
+      "target": "eval_demo_double_count"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "",
+      "source_location": null,
+      "weight": 1.2,
+      "_src": "pkg_ai_orchestration",
+      "_tgt": "control_viz_fallback_image_refusal",
+      "source": "pkg_ai_orchestration",
+      "target": "control_viz_fallback_image_refusal"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "",
+      "source_location": null,
+      "weight": 1.2,
+      "_src": "pkg_ai_orchestration",
+      "_tgt": "gpt_image_fallback_control_viz",
+      "source": "pkg_ai_orchestration",
+      "target": "gpt_image_fallback_control_viz"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "",
+      "source_location": null,
+      "weight": 1.2,
+      "_src": "pkg_ai_orchestration",
+      "_tgt": "consolidate_ai_orch_shared_modules",
+      "source": "pkg_ai_orchestration",
+      "target": "consolidate_ai_orch_shared_modules"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "",
+      "source_location": null,
+      "weight": 1.2,
+      "_src": "pkg_ai_orchestration",
+      "_tgt": "vertex_server_side_image_fetch",
+      "source": "pkg_ai_orchestration",
+      "target": "vertex_server_side_image_fetch"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "",
+      "source_location": null,
+      "weight": 1.2,
+      "_src": "pkg_infra",
+      "_tgt": "waf_upload_path_exemptions",
+      "source": "pkg_infra",
+      "target": "waf_upload_path_exemptions"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "",
+      "source_location": null,
+      "weight": 1.2,
+      "_src": "pkg_infra",
+      "_tgt": "github_runner_auto_cleanup",
+      "source": "pkg_infra",
+      "target": "github_runner_auto_cleanup"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "",
+      "source_location": null,
+      "weight": 1.2,
+      "_src": "pkg_infra",
+      "_tgt": "rts_prod_tenant_setup",
+      "source": "pkg_infra",
+      "target": "rts_prod_tenant_setup"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "",
+      "source_location": null,
+      "weight": 1.2,
+      "_src": "pkg_infra",
+      "_tgt": "allow_philippines_cloudfront",
+      "source": "pkg_infra",
+      "target": "allow_philippines_cloudfront"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "",
+      "source_location": null,
+      "weight": 1.2,
+      "_src": "pkg_infra",
+      "_tgt": "waf_genericlfi_body_cloudfront_exemption",
+      "source": "pkg_infra",
+      "target": "waf_genericlfi_body_cloudfront_exemption"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "",
+      "source_location": null,
+      "weight": 1.2,
+      "_src": "pkg_service",
+      "_tgt": "java_langfuse_observability",
+      "source": "pkg_service",
+      "target": "java_langfuse_observability"
+    },
     {
       "relation": "implements",
       "confidence": "EXTRACTED",
@@ -451,11 +801,11 @@
       "relation": "conceptually_related_to",
       "confidence": "INFERRED",
       "confidence_score": 0.7,
-      "source_file": null,
+      "source_file": "",
       "source_location": null,
       "weight": 0.7,
-      "_src": "guardrails_allow_hazard_queries",
-      "_tgt": "chatv2_groundedness_eval",
+      "_src": "chatv2_groundedness_eval",
+      "_tgt": "guardrails_allow_hazard_queries",
       "source": "chatv2_groundedness_eval",
       "target": "guardrails_allow_hazard_queries"
     },
@@ -487,11 +837,11 @@
       "relation": "conceptually_related_to",
       "confidence": "INFERRED",
       "confidence_score": 0.7,
-      "source_file": null,
+      "source_file": "",
       "source_location": null,
       "weight": 0.7,
-      "_src": "consolidate_ai_orch_shared_modules",
-      "_tgt": "pdf_extraction_vertex_credentials",
+      "_src": "pdf_extraction_vertex_credentials",
+      "_tgt": "consolidate_ai_orch_shared_modules",
       "source": "pdf_extraction_vertex_credentials",
       "target": "consolidate_ai_orch_shared_modules"
     },
@@ -514,8 +864,8 @@
       "source_file": "consolidate",
       "source_location": null,
       "weight": 0.8,
-      "_src": "consolidate_ai_orch_shared_modules",
-      "_tgt": "declarative_config_deep_health",
+      "_src": "declarative_config_deep_health",
+      "_tgt": "consolidate_ai_orch_shared_modules",
       "source": "declarative_config_deep_health",
       "target": "consolidate_ai_orch_shared_modules"
     },
@@ -559,7 +909,7 @@
       "relation": "conceptually_related_to",
       "confidence": "INFERRED",
       "confidence_score": 0.85,
-      "source_file": null,
+      "source_file": "",
       "source_location": null,
       "weight": 0.9,
       "_src": "ai_studio_image_transport",
@@ -586,8 +936,8 @@
       "source_file": "consolidate",
       "source_location": null,
       "weight": 0.75,
-      "_src": "consolidate_ai_orch_shared_modules",
-      "_tgt": "ai_studio_image_transport",
+      "_src": "ai_studio_image_transport",
+      "_tgt": "consolidate_ai_orch_shared_modules",
       "source": "ai_studio_image_transport",
       "target": "consolidate_ai_orch_shared_modules"
     },
@@ -655,7 +1005,7 @@
       "relation": "conceptually_related_to",
       "confidence": "INFERRED",
       "confidence_score": 0.85,
-      "source_file": null,
+      "source_file": "",
       "source_location": null,
       "weight": 0.85,
       "_src": "hazard_eval_compression",
@@ -667,11 +1017,11 @@
       "relation": "conceptually_related_to",
       "confidence": "INFERRED",
       "confidence_score": 0.8,
-      "source_file": null,
+      "source_file": "",
       "source_location": null,
       "weight": 0.8,
-      "_src": "eval_demo_double_count",
-      "_tgt": "hazard_eval_compression",
+      "_src": "hazard_eval_compression",
+      "_tgt": "eval_demo_double_count",
       "source": "hazard_eval_compression",
       "target": "eval_demo_double_count"
     },
@@ -703,7 +1053,7 @@
       "relation": "conceptually_related_to",
       "confidence": "INFERRED",
       "confidence_score": 0.7,
-      "source_file": null,
+      "source_file": "",
       "source_location": null,
       "weight": 0.7,
       "_src": "rts_prod_tenant_setup",
@@ -718,8 +1068,8 @@
       "source_file": "viz",
       "source_location": null,
       "weight": 1.0,
-      "_src": "gpt_image_fallback_control_viz",
-      "_tgt": "control_viz_fallback_image_refusal",
+      "_src": "control_viz_fallback_image_refusal",
+      "_tgt": "gpt_image_fallback_control_viz",
       "source": "control_viz_fallback_image_refusal",
       "target": "gpt_image_fallback_control_viz"
     },
@@ -772,73 +1122,5 @@
       "target": "concept_binary_data_false_positive"
     }
   ],
-  "hyperedges": [
-    {
-      "id": "langfuse_cross_stack",
-      "label": "Langfuse Across Java and TypeScript",
-      "nodes": [
-        "chatv2_groundedness_eval",
-        "java_langfuse_observability",
-        "concept_langfuse_observability",
-        "concept_async_fail_open"
-      ],
-      "relation": "implement",
-      "confidence": "INFERRED",
-      "confidence_score": 0.9,
-      "source_file": null
-    },
-    {
-      "id": "waf_binary_false_positive",
-      "label": "WAF Binary Data False Positive Series",
-      "nodes": [
-        "waf_upload_path_exemptions",
-        "waf_genericlfi_body_cloudfront_exemption",
-        "concept_binary_data_false_positive"
-      ],
-      "relation": "implement",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": null
-    },
-    {
-      "id": "image_transport_evolution",
-      "label": "Image Transport Method Evolution",
-      "nodes": [
-        "ai_studio_image_transport",
-        "vertex_server_side_image_fetch",
-        "pdf_extraction_vertex_credentials",
-        "concept_image_transport"
-      ],
-      "relation": "implement",
-      "confidence": "INFERRED",
-      "confidence_score": 0.85,
-      "source_file": null
-    },
-    {
-      "id": "control_viz_fallback",
-      "label": "Control Viz Exhaustive Fallback Chain",
-      "nodes": [
-        "control_viz_fallback_image_refusal",
-        "gpt_image_fallback_control_viz",
-        "concept_fallback_chain_pattern"
-      ],
-      "relation": "implement",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": null
-    },
-    {
-      "id": "hazard_eval_fixes",
-      "label": "Hazard Eval Test Infrastructure Fixes",
-      "nodes": [
-        "hazard_eval_compression",
-        "hazard_eval_model_upgrade_retry",
-        "eval_demo_double_count"
-      ],
-      "relation": "participate_in",
-      "confidence": "INFERRED",
-      "confidence_score": 0.85,
-      "source_file": null
-    }
-  ]
+  "hyperedges": []
 }

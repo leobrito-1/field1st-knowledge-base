@@ -1,14 +1,13 @@
 # Observability & Chat Quality
 
-> 5 nodes · cohesion 0.60
+> 4 nodes · cohesion 0.83
 
 ## Key Concepts
 
-- **Chat V2 Groundedness Eval** (4 connections) — `/Users/leonardobrito/.claude/wiki/raw/2026-03-02-chatv2-groundedness-eval.md`
+- **Chat V2 Groundedness Eval** (5 connections) — `/Users/leonardobrito/.claude/wiki/raw/2026-03-02-chatv2-groundedness-eval.md`
+- **Java Langfuse Observability** (4 connections) — `/Users/leonardobrito/.claude/wiki/raw/2026-03-12-java-langfuse-observability.md`
 - **Langfuse Observability** (3 connections)
-- **Java Langfuse Observability** (3 connections) — `/Users/leonardobrito/.claude/wiki/raw/2026-03-12-java-langfuse-observability.md`
 - **Async Fail-Open Observability** (2 connections)
-- **Guardrails Allow Hazard Queries** (1 connections) — `/Users/leonardobrito/.claude/wiki/raw/2026-03-03-guardrails-allow-hazard-queries.md`
 
 ## Relationships
 
@@ -17,13 +16,12 @@
 ## Source Files
 
 - `/Users/leonardobrito/.claude/wiki/raw/2026-03-02-chatv2-groundedness-eval.md`
-- `/Users/leonardobrito/.claude/wiki/raw/2026-03-03-guardrails-allow-hazard-queries.md`
 - `/Users/leonardobrito/.claude/wiki/raw/2026-03-12-java-langfuse-observability.md`
 
 ## Audit Trail
 
-- EXTRACTED: 9 (69%)
-- INFERRED: 4 (31%)
+- EXTRACTED: 11 (79%)
+- INFERRED: 3 (21%)
 - AMBIGUOUS: 0 (0%)
 
 ---

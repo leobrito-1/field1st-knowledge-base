@@ -5,8 +5,8 @@
 ## Key Concepts
 
 - **Fallback Chain Pattern** (4 connections)
-- **Control-Viz Fallback for Image Refusal** (2 connections) — `/Users/leonardobrito/.claude/wiki/raw/2026-04-02-control-viz-fallback-image-refusal.md`
-- **GPT-image-1 Fallback for Control Viz** (2 connections) — `/Users/leonardobrito/.claude/wiki/raw/2026-04-02-gpt-image-fallback-control-viz.md`
+- **Control-Viz Fallback for Image Refusal** (3 connections) — `/Users/leonardobrito/.claude/wiki/raw/2026-04-02-control-viz-fallback-image-refusal.md`
+- **GPT-image-1 Fallback for Control Viz** (3 connections) — `/Users/leonardobrito/.claude/wiki/raw/2026-04-02-gpt-image-fallback-control-viz.md`
 
 ## Relationships
 
@@ -19,8 +19,8 @@
 
 ## Audit Trail
 
-- EXTRACTED: 7 (88%)
-- INFERRED: 1 (12%)
+- EXTRACTED: 9 (90%)
+- INFERRED: 1 (10%)
 - AMBIGUOUS: 0 (0%)
 
 ---
