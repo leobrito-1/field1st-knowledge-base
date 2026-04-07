@@ -118,3 +118,129 @@ Chronological record of wiki operations. Each entry starts with `## [date] type 
 - PR: #133
 - Author: thomas.alfonso
 - Entry: [raw/2026-03-02-chatv2-groundedness-eval.md]
+
+## [2026-04-07] backfill | none | Consolidate deploy workflows with shared Slack action and image caching
+- Project: field1st
+- PR: #87
+- Author: andy.ewald
+- Entry: [raw/wiki-ae-2026-02-23-ci-deploy-consolidation.md]
+
+## [2026-04-07] backfill | none | Consolidate hazard types and utils into fe-common
+- Project: field1st
+- PR: #151
+- Author: andy.ewald
+- Entry: [raw/wiki-ae-2026-03-03-consolidate-hazard-types-fe-common.md]
+
+## [2026-04-07] backfill | none | Migrate reporting-view, infra, and cli repos into monorepo
+- Project: field1st
+- PR: #153
+- Author: andy.ewald
+- Entry: [raw/wiki-ae-2026-03-03-monorepo-migration.md]
+
+## [2026-04-07] backfill | none | Hazard assessment side drawer with related documents
+- Project: field1st
+- PR: #172
+- Author: andy.ewald
+- Entry: [raw/wiki-ae-2026-03-05-hazard-side-drawer.md]
+
+## [2026-04-07] backfill | none | Upgrade React Native 0.79 to 0.81 / Expo 53 to 54
+- Project: field1st
+- PR: #119
+- Author: andy.ewald
+- Entry: [raw/wiki-ae-2026-03-09-rn-081-expo-54-upgrade.md]
+
+## [2026-04-07] backfill | none | Reports page drag-and-drop cards with chart toggles
+- Project: field1st
+- PR: #207
+- Author: andy.ewald
+- Entry: [raw/wiki-ae-2026-03-10-web-reports-dnd-charts.md]
+
+## [2026-04-07] backfill | F1-166 | Upgrade React Native 0.81 to 0.83 + Expo 55 + Android New Architecture
+- Project: field1st
+- PR: #240
+- Author: andy.ewald
+- Entry: [raw/wiki-ae-2026-03-17-rn-083-expo-55-new-arch.md]
+
+## [2026-04-07] backfill | F1-178 | Offline Voice1st save with Saved Transcripts list
+- Project: field1st
+- PR: #258
+- Author: andy.ewald
+- Entry: [raw/wiki-ae-2026-03-18-voice1st-offline-save.md]
+
+## [2026-04-07] backfill | F1-182 | Voice1st transcript auto-save and shared queue
+- Project: field1st
+- PR: #262
+- Author: andy.ewald
+- Entry: [raw/wiki-ae-2026-03-18-web-saved-transcripts-shared-queue.md]
+
+## [2026-04-07] backfill | F1-210 | Cache notifications for offline use
+- Project: field1st
+- PR: #318
+- Author: andy.ewald
+- Entry: [raw/wiki-ae-2026-03-24-offline-notifications-cache.md]
+
+## [2026-04-07] backfill | F1-181 | VLM offline scan with document list placeholder and sync status
+- Project: field1st
+- PR: #319
+- Author: andy.ewald
+- Entry: [raw/wiki-ae-2026-03-24-vlm-offline-scan.md]
+
+## [2026-04-07] backfill | none | Enable Expo Web for Playwright debugging
+- Project: field1st
+- PR: #336
+- Author: andy.ewald
+- Entry: [raw/wiki-ae-2026-03-26-expo-web-playwright.md]
+
+## [2026-04-07] backfill | F1-179 | Offline hazard assessment support with cross-platform sync
+- Project: field1st
+- PR: #334
+- Author: andy.ewald
+- Entry: [raw/wiki-ae-2026-03-26-offline-hazard-assessment.md]
+
+## [2026-04-07] backfill | F1-180 | Offline queue for document creation from hazard data
+- Project: field1st
+- PR: #345
+- Author: andy.ewald
+- Entry: [raw/wiki-ae-2026-03-27-offline-doc-from-hazard.md]
+
+## [2026-04-07] backfill | F1-225 | Android Ready1st home screen widget and ongoing notification
+- Project: field1st
+- PR: #362
+- Author: andy.ewald
+- Entry: [raw/wiki-ae-2026-03-30-android-ready1st-widget.md]
+
+## [2026-04-07] backfill | F1-232 | Faster airplane mode offline detection via NetInfo tuning
+- Project: field1st
+- PR: #373
+- Author: andy.ewald
+- Entry: [raw/wiki-ae-2026-03-31-airplane-mode-detection.md]
+
+## [2026-04-07] backfill | F1-232 | Fix mobile airplane mode recovery cascade failures
+- Project: field1st
+- PR: #371
+- Author: andy.ewald
+- Entry: [raw/wiki-ae-2026-03-31-airplane-mode-recovery.md]
+
+## [2026-04-07] backfill | F1-235 | Mobile offline sync review banner
+- Project: field1st
+- PR: #382
+- Author: andy.ewald
+- Entry: [raw/wiki-ae-2026-04-01-offline-sync-review-banner.md]
+
+## [2026-04-07] backfill | F1-248 | Form builder dataset options expansion and selection lookup fix
+- Project: field1st
+- PR: #392
+- Author: andy.ewald
+- Entry: [raw/wiki-ae-2026-04-02-form-builder-dataset-options.md]
+
+## [2026-04-07] backfill | F1-247 | Per-document timestamp conflict detection for offline sync
+- Project: field1st
+- PR: #391
+- Author: andy.ewald
+- Entry: [raw/wiki-ae-2026-04-03-per-document-conflict-detection.md]
+
+## [2026-04-07] backfill | F1-262 | Enable Sentry tracking for web and mobile environments
+- Project: field1st
+- PR: #415
+- Author: andy.ewald
+- Entry: [raw/wiki-ae-2026-04-06-sentry-tracking-web-mobile.md]
