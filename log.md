@@ -88,3 +88,33 @@ Chronological record of wiki operations. Each entry starts with `## [date] type 
 - Project: field1st
 - PR: #192
 - Entry: [raw/2026-03-07-bootstrap-migration-managed-db.md]
+
+## [2026-04-07] backfill | none | Add RTS prod tenant as internal staging environment
+- Project: field1st
+- PR: #377
+- Author: thomas.alfonso
+- Entry: [raw/2026-03-31-rts-prod-tenant-setup.md]
+
+## [2026-04-07] backfill | none | Add Langfuse observability for Java AI flows
+- Project: field1st
+- PR: #211
+- Author: thomas.alfonso
+- Entry: [raw/2026-03-12-java-langfuse-observability.md]
+
+## [2026-04-07] backfill | none | Fix PDF extraction Vertex credentials by switching SDKs
+- Project: field1st
+- PR: #193
+- Author: thomas.alfonso
+- Entry: [raw/2026-03-08-pdf-extraction-vertex-credentials.md]
+
+## [2026-04-07] backfill | none | Allow hazard/risk scenario questions in Chat V2 guardrails
+- Project: field1st
+- PR: #150
+- Author: thomas.alfonso
+- Entry: [raw/2026-03-03-guardrails-allow-hazard-queries.md]
+
+## [2026-04-07] backfill | none | Add groundedness evaluation and observability for Chat V2
+- Project: field1st
+- PR: #133
+- Author: thomas.alfonso
+- Entry: [raw/2026-03-02-chatv2-groundedness-eval.md]
