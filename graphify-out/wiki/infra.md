@@ -14,7 +14,7 @@
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [[fe-common]] (1 shared connections)
 
 ## Source Files
 

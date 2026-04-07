@@ -1,19 +1,29 @@
 # Chat V2 Groundedness Eval
 
-> God node · 5 connections · `/Users/leonardobrito/.claude/wiki/raw/2026-03-02-chatv2-groundedness-eval.md`
+> 4 nodes · cohesion 0.83
 
-## Connections by Relation
+## Key Concepts
 
-### conceptually_related_to
-- [[Java Langfuse Observability]] `INFERRED`
-- [[Guardrails Allow Hazard Queries]] `INFERRED`
+- **Chat V2 Groundedness Eval** (5 connections) — `/Users/leonardobrito/.claude/wiki/raw/2026-03-02-chatv2-groundedness-eval.md`
+- **Java Langfuse Observability** (4 connections) — `/Users/leonardobrito/.claude/wiki/raw/2026-03-12-java-langfuse-observability.md`
+- **Langfuse Observability** (3 connections)
+- **Async Fail-Open Observability** (2 connections)
 
-### contains
-- [[ai-orchestration]] `EXTRACTED`
+## Relationships
 
-### implements
-- [[Langfuse Observability]] `EXTRACTED`
-- [[Async Fail-Open Observability]] `EXTRACTED`
+- [[ai-orchestration]] (3 shared connections)
+- [[fe-common]] (1 shared connections)
+
+## Source Files
+
+- `/Users/leonardobrito/.claude/wiki/raw/2026-03-02-chatv2-groundedness-eval.md`
+- `/Users/leonardobrito/.claude/wiki/raw/2026-03-12-java-langfuse-observability.md`
+
+## Audit Trail
+
+- EXTRACTED: 11 (79%)
+- INFERRED: 3 (21%)
+- AMBIGUOUS: 0 (0%)
 
 ---
 

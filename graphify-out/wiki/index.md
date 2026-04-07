@@ -11,24 +11,10 @@
 
 - [[ai-orchestration]] — 9 nodes
 - [[infra]] — 7 nodes
-- [[Image Transport & Credentials]] — 7 nodes
-- [[Field1st Project]] — 5 nodes
-- [[Observability & Chat Quality]] — 4 nodes
-- [[Control Visualization Fallback]] — 3 nodes
-
-## God Nodes
-(most connected concepts — the load-bearing abstractions)
-
-- [[Chat V2 Groundedness Eval]] — 5 connections
-- [[Tier-Aware Image Transport for Gemini Fallback]] — 5 connections
-- [[PDF Extraction Vertex Credentials Fix]] — 4 connections
-- [[Java Langfuse Observability]] — 4 connections
-- [[Bedrock Converse API Unification]] — 4 connections
-- [[Hazard Eval Compression and Result Accumulation Fix]] — 4 connections
-- [[Hazard Eval Model Upgrade and 5xx Retry]] — 4 connections
-- [[Consolidate AI Orchestration Shared Modules]] — 4 connections
-- [[Declarative Config and Deep Health Checks]] — 3 connections
-- [[WAF Upload Path Exemptions]] — 3 connections
+- [[Tier-Aware Image Transport for Gemini Fallback]] — 7 nodes
+- [[fe-common]] — 5 nodes
+- [[Chat V2 Groundedness Eval]] — 4 nodes
+- [[Fallback Chain Pattern]] — 3 nodes
 
 ---
 

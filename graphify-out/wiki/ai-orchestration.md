@@ -16,7 +16,10 @@
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [[Tier-Aware Image Transport for Gemini Fallback]] (5 shared connections)
+- [[Chat V2 Groundedness Eval]] (3 shared connections)
+- [[Fallback Chain Pattern]] (3 shared connections)
+- [[fe-common]] (1 shared connections)
 
 ## Source Files
 

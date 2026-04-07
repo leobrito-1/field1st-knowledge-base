@@ -1,19 +1,35 @@
 # Tier-Aware Image Transport for Gemini Fallback
 
-> God node · 5 connections · `/Users/leonardobrito/.claude/wiki/raw/2026-03-16-ai-studio-image-transport.md`
+> 7 nodes · cohesion 0.43
 
-## Connections by Relation
+## Key Concepts
 
-### conceptually_related_to
-- [[Consolidate AI Orchestration Shared Modules]] `INFERRED`
-- [[Vertex Server-Side Image Fetch]] `INFERRED`
+- **Tier-Aware Image Transport for Gemini Fallback** (5 connections) — `/Users/leonardobrito/.claude/wiki/raw/2026-03-16-ai-studio-image-transport.md`
+- **Consolidate AI Orchestration Shared Modules** (4 connections) — `/Users/leonardobrito/.claude/wiki/raw/2026-04-03-consolidate-ai-orch-shared-modules.md`
+- **PDF Extraction Vertex Credentials Fix** (4 connections) — `/Users/leonardobrito/.claude/wiki/raw/2026-03-08-pdf-extraction-vertex-credentials.md`
+- **Image Transport (gs:// vs inlineData vs signed URLs)** (3 connections)
+- **Declarative Config and Deep Health Checks** (3 connections) — `/Users/leonardobrito/.claude/wiki/raw/2026-03-11-declarative-config-deep-health.md`
+- **Vertex Server-Side Image Fetch** (3 connections) — `/Users/leonardobrito/.claude/wiki/raw/2026-04-06-vertex-server-side-image-fetch.md`
+- **Credential Initialization Timing** (2 connections)
 
-### contains
-- [[ai-orchestration]] `EXTRACTED`
+## Relationships
 
-### implements
-- [[Fallback Chain Pattern]] `EXTRACTED`
-- [[Image Transport (gs:// vs inlineData vs signed URLs)]] `EXTRACTED`
+- [[ai-orchestration]] (5 shared connections)
+- [[Fallback Chain Pattern]] (1 shared connections)
+
+## Source Files
+
+- `/Users/leonardobrito/.claude/wiki/raw/2026-03-08-pdf-extraction-vertex-credentials.md`
+- `/Users/leonardobrito/.claude/wiki/raw/2026-03-11-declarative-config-deep-health.md`
+- `/Users/leonardobrito/.claude/wiki/raw/2026-03-16-ai-studio-image-transport.md`
+- `/Users/leonardobrito/.claude/wiki/raw/2026-04-03-consolidate-ai-orch-shared-modules.md`
+- `/Users/leonardobrito/.claude/wiki/raw/2026-04-06-vertex-server-side-image-fetch.md`
+
+## Audit Trail
+
+- EXTRACTED: 12 (50%)
+- INFERRED: 12 (50%)
+- AMBIGUOUS: 0 (0%)
 
 ---
 
