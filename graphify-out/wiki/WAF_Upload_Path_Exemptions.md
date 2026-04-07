@@ -1,14 +1,14 @@
 # WAF Upload Path Exemptions
 
-> God node · 2 connections · `.claude/wiki/raw/2026-03-22-waf-upload-path-exemptions.md`
+> God node · 2 connections · `/Users/leonardobrito/.claude/wiki/raw/2026-03-22-waf-upload-path-exemptions.md`
 
 ## Connections by Relation
 
-### references
-- [[WAF Configuration]] `EXTRACTED`
+### implements
+- [[Binary Data WAF False Positive]] `EXTRACTED`
 
-### semantically_similar_to
-- [[WAF GenericLFI_BODY CloudFront Exemption]] `INFERRED`
+### references
+- [[WAF GenericLFI_BODY CloudFront Exemption]] `EXTRACTED`
 
 ---
 

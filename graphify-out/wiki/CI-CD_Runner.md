@@ -4,7 +4,7 @@
 
 ## Key Concepts
 
-- **GitHub Runner Auto Cleanup** (0 connections) — `.claude/wiki/raw/2026-03-25-github-runner-auto-cleanup.md`
+- **GitHub Runner Auto-Cleanup** (0 connections) — `/Users/leonardobrito/.claude/wiki/raw/2026-03-25-github-runner-auto-cleanup.md`
 
 ## Relationships
 
@@ -12,7 +12,7 @@
 
 ## Source Files
 
-- `.claude/wiki/raw/2026-03-25-github-runner-auto-cleanup.md`
+- `/Users/leonardobrito/.claude/wiki/raw/2026-03-25-github-runner-auto-cleanup.md`
 
 ## Audit Trail
 

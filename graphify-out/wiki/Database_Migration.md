@@ -4,7 +4,7 @@
 
 ## Key Concepts
 
-- **Bootstrap Migration to Managed DB** (0 connections) — `.claude/wiki/raw/2026-03-07-bootstrap-migration-managed-db.md`
+- **Bootstrap Migration for Managed DB** (0 connections) — `/Users/leonardobrito/.claude/wiki/raw/2026-03-07-bootstrap-migration-managed-db.md`
 
 ## Relationships
 
@@ -12,7 +12,7 @@
 
 ## Source Files
 
-- `.claude/wiki/raw/2026-03-07-bootstrap-migration-managed-db.md`
+- `/Users/leonardobrito/.claude/wiki/raw/2026-03-07-bootstrap-migration-managed-db.md`
 
 ## Audit Trail
 
