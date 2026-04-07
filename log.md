@@ -244,3 +244,27 @@ Chronological record of wiki operations. Each entry starts with `## [date] type 
 - PR: #415
 - Author: andy.ewald
 - Entry: [raw/wiki-ae-2026-04-06-sentry-tracking-web-mobile.md]
+
+## [2026-04-07] backfill | none | Enable WAF for all production services via inverted logic fix
+- Project: field1st
+- PR: #264
+- Author: james.burns
+- Entry: [raw/wiki-jb-2026-03-18-enable-waf-production.md]
+
+## [2026-04-07] backfill | none | Restrict JWT token resolution to headers only
+- Project: field1st
+- PR: #269
+- Author: james.burns
+- Entry: [raw/wiki-jb-2026-03-18-jwt-url-token-removal.md]
+
+## [2026-04-07] backfill | F1-197 | HTTP security headers across CloudFront, Spring Boot, and AI orchestration
+- Project: field1st
+- PR: #286
+- Author: james.burns
+- Entry: [raw/wiki-jb-2026-03-20-http-security-headers.md]
+
+## [2026-04-07] backfill | F1-187 | Stored XSS prevention with three-level DOMPurify sanitization
+- Project: field1st
+- PR: #271
+- Author: james.burns
+- Entry: [raw/wiki-jb-2026-04-01-xss-sanitization-dompurify.md]
