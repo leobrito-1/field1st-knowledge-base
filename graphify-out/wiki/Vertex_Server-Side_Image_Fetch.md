@@ -1,17 +1,19 @@
 # Vertex Server-Side Image Fetch
 
-> God node · 3 connections · `.claude/wiki/raw/2026-04-06-vertex-server-side-image-fetch.md`
+> God node · 5 connections · `~/.claude/wiki/raw/2026-04-06-vertex-server-side-image-fetch.md`
 
 ## Connections by Relation
 
 ### conceptually_related_to
-- [[Gemini Model Configuration]] `INFERRED`
+- [[AI Studio Image Transport]] `INFERRED`
+- [[Consolidate AI Orch Shared Modules]] `INFERRED`
+- [[PDF Extraction Vertex Credentials Fix]] `INFERRED`
+
+### contains
+- [[AI Orchestration Package]] `EXTRACTED`
 
 ### implements
-- [[AI Image Transport Mechanism]] `EXTRACTED`
-
-### semantically_similar_to
-- [[AI Studio Image Transport]] `INFERRED`
+- [[Image Transport (gs:// vs inlineData vs signed URLs)]] `EXTRACTED`
 
 ---
 

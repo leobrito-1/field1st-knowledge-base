@@ -4,24 +4,23 @@
 
 ## Key Concepts
 
-- **Fallback Chain Pattern** (4 connections)
-- **Control-Viz Fallback for Image Refusal** (3 connections) — `/Users/leonardobrito/.claude/wiki/raw/2026-04-02-control-viz-fallback-image-refusal.md`
-- **GPT-image-1 Fallback for Control Viz** (3 connections) — `/Users/leonardobrito/.claude/wiki/raw/2026-04-02-gpt-image-fallback-control-viz.md`
+- **Fallback Chain Pattern** (5 connections)
+- **Control Viz Fallback Image Refusal** (3 connections) — `~/.claude/wiki/raw/2026-04-02-control-viz-fallback-image-refusal.md`
+- **GPT-image-1 Fallback for Control Viz** (3 connections) — `~/.claude/wiki/raw/2026-04-02-gpt-image-fallback-control-viz.md`
 
 ## Relationships
 
-- [[ai-orchestration]] (3 shared connections)
-- [[Tier-Aware Image Transport for Gemini Fallback]] (1 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `/Users/leonardobrito/.claude/wiki/raw/2026-04-02-control-viz-fallback-image-refusal.md`
-- `/Users/leonardobrito/.claude/wiki/raw/2026-04-02-gpt-image-fallback-control-viz.md`
+- `~/.claude/wiki/raw/2026-04-02-control-viz-fallback-image-refusal.md`
+- `~/.claude/wiki/raw/2026-04-02-gpt-image-fallback-control-viz.md`
 
 ## Audit Trail
 
-- EXTRACTED: 9 (90%)
-- INFERRED: 1 (10%)
+- EXTRACTED: 9 (82%)
+- INFERRED: 2 (18%)
 - AMBIGUOUS: 0 (0%)
 
 ---
