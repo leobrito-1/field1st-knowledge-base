@@ -1,0 +1,32 @@
+# Canonical tags — the /wiki skill fuzzy-matches new tags against this list.
+# Add new tags as they emerge. Aliases prevent graph fragmentation.
+infra:
+  aliases: [infrastructure, terraform, terragrunt, iac]
+waf:
+  aliases: [web-application-firewall, aws-waf]
+cloudfront:
+  aliases: [cf, cloud-front, cdn]
+fe-common:
+  aliases: [shared-lib, frontend-common]
+react-native:
+  aliases: [rn, mobile-framework]
+redux:
+  aliases: [state-management, store]
+spring-boot:
+  aliases: [spring, java-backend]
+typescript:
+  aliases: [ts]
+react:
+  aliases: [reactjs]
+mobile:
+  aliases: [ios, android, react-native-app]
+web:
+  aliases: [dashboard, web-app]
+security:
+  aliases: [sec, vulnerability, cve]
+testing:
+  aliases: [tests, test, unit-test, integration-test]
+i18n:
+  aliases: [translations, localization, l10n]
+ci-cd:
+  aliases: [ci, cd, github-actions, pipeline, deploy]

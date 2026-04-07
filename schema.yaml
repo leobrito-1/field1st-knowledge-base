@@ -1,0 +1,39 @@
+# Schema for wiki entries — used by the /wiki skill for validation
+required:
+  - project
+  - repo
+  - date
+  - author
+  - tags
+  - answers
+
+# These are required for PR-triggered entries but optional for /wiki capture
+pr_required:
+  - pr
+  - branch
+
+optional:
+  - jira
+  - packages
+  - related
+
+types:
+  project: string
+  repo: string
+  pr: number
+  branch: string
+  date: date
+  author: string
+  jira: string
+  tags: string[]
+  answers: string[]
+  packages: string[]
+  related: string[]
+
+sections:
+  required:
+    - Motivation
+    - What changed
+    - Why this approach
+    - Lessons
+    - If you're working on something similar
