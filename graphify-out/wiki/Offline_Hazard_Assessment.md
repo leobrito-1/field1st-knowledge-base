@@ -1,18 +1,18 @@
 # Offline Hazard Assessment
 
-> God node · 6 connections · `~/.claude/wiki/raw/wiki-ae-2026-03-26-offline-hazard-assessment.md`
+> God node · 6 connections · `wiki-ae-2026-03-26-offline-hazard-assessment.md`
 
 ## Connections by Relation
 
 ### contains
-- [[Mobile Package]] `EXTRACTED`
-- [[FE Common Package]] `EXTRACTED`
-- [[Web Package]] `EXTRACTED`
+- [[mobile]] `EXTRACTED`
+- [[web]] `EXTRACTED`
+- [[fe-common]] `EXTRACTED`
 
-### implements
+### exemplifies
 - [[Offline Sync Pattern]] `EXTRACTED`
 - [[Cross-Platform Extraction to fe-common]] `INFERRED`
-- [[Conflict Detection (Per-Document Timestamp)]] `INFERRED`
+- [[Conflict Detection Pattern]] `INFERRED`
 
 ---
 

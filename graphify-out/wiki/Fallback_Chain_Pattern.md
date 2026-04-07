@@ -1,12 +1,13 @@
 # Fallback Chain Pattern
 
-> 3 nodes · cohesion 1.00
+> 4 nodes · cohesion 0.67
 
 ## Key Concepts
 
 - **Fallback Chain Pattern** (5 connections)
-- **Control Viz Fallback Image Refusal** (3 connections) — `~/.claude/wiki/raw/2026-04-02-control-viz-fallback-image-refusal.md`
-- **GPT-image-1 Fallback for Control Viz** (3 connections) — `~/.claude/wiki/raw/2026-04-02-gpt-image-fallback-control-viz.md`
+- **Control Viz Fallback Robustness** (3 connections) — `2026-04-02-control-viz-fallback-image-refusal.md`
+- **GPT-image-1 Fallback Control Viz** (3 connections) — `2026-04-02-gpt-image-fallback-control-viz.md`
+- **Hazard Eval Model Upgrade Retry** (2 connections) — `2026-03-24-hazard-eval-model-upgrade-retry.md`
 
 ## Relationships
 
@@ -14,13 +15,14 @@
 
 ## Source Files
 
-- `~/.claude/wiki/raw/2026-04-02-control-viz-fallback-image-refusal.md`
-- `~/.claude/wiki/raw/2026-04-02-gpt-image-fallback-control-viz.md`
+- `2026-03-24-hazard-eval-model-upgrade-retry.md`
+- `2026-04-02-control-viz-fallback-image-refusal.md`
+- `2026-04-02-gpt-image-fallback-control-viz.md`
 
 ## Audit Trail
 
-- EXTRACTED: 9 (82%)
-- INFERRED: 2 (18%)
+- EXTRACTED: 10 (77%)
+- INFERRED: 3 (23%)
 - AMBIGUOUS: 0 (0%)
 
 ---

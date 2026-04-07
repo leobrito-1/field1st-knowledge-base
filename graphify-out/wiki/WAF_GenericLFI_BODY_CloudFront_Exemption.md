@@ -1,14 +1,21 @@
 # WAF GenericLFI_BODY CloudFront Exemption
 
-> God node · 2 connections · `.claude/wiki/raw/2026-04-07-waf-genericlfi-body-cloudfront-exemption.md`
+> God node · 5 connections · `2026-04-07-waf-genericlfi-body-cloudfront-exemption.md`
 
 ## Connections by Relation
 
-### references
-- [[WAF Configuration]] `EXTRACTED`
+### contains
+- [[infra]] `EXTRACTED`
 
-### semantically_similar_to
-- [[WAF Upload Path Exemptions]] `INFERRED`
+### exemplifies
+- [[Security Hardening (XSS, JWT, WAF, Headers)]] `INFERRED`
+- [[Binary Data WAF False Positive]] `EXTRACTED`
+
+### references_pr_264
+- [[Enable WAF Production]] `EXTRACTED`
+
+### references_pr_297
+- [[WAF Upload Path Exemptions]] `EXTRACTED`
 
 ---
 

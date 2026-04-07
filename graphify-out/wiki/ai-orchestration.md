@@ -1,41 +1,36 @@
 # ai-orchestration
 
-> 9 nodes · cohesion 0.36
+> 8 nodes · cohesion 0.32
 
 ## Key Concepts
 
-- **ai-orchestration** (17 connections)
-- **Bedrock Converse API Unification** (4 connections) — `/Users/leonardobrito/.claude/wiki/raw/2026-03-23-bedrock-converse-unification.md`
-- **Hazard Eval Compression and Result Accumulation Fix** (4 connections) — `/Users/leonardobrito/.claude/wiki/raw/2026-03-23-hazard-eval-compression.md`
-- **Hazard Eval Model Upgrade and 5xx Retry** (4 connections) — `/Users/leonardobrito/.claude/wiki/raw/2026-03-24-hazard-eval-model-upgrade-retry.md`
-- **Bounding Box yxyx Standardization** (2 connections) — `/Users/leonardobrito/.claude/wiki/raw/2026-03-19-bbox-yxyx-standardization.md`
-- **Eval DEMO Double Count Fix** (2 connections) — `/Users/leonardobrito/.claude/wiki/raw/2026-04-01-eval-demo-double-count.md`
-- **Guardrails Allow Hazard Queries** (2 connections) — `/Users/leonardobrito/.claude/wiki/raw/2026-03-03-guardrails-allow-hazard-queries.md`
-- **Restore Gemini AI Settings Catalog** (2 connections) — `/Users/leonardobrito/.claude/wiki/raw/2026-03-18-restore-gemini-ai-settings.md`
-- **Bootstrap Migration for Managed DB** (1 connections) — `/Users/leonardobrito/.claude/wiki/raw/2026-03-07-bootstrap-migration-managed-db.md`
+- **ai-orchestration** (18 connections)
+- **AI Studio Image Transport** (5 connections) — `2026-03-16-ai-studio-image-transport.md`
+- **Consolidate AI Orch Shared Modules** (4 connections) — `2026-04-03-consolidate-ai-orch-shared-modules.md`
+- **Declarative Config Deep Health** (3 connections) — `2026-03-11-declarative-config-deep-health.md`
+- **Bootstrap Migration Managed DB** (1 connections) — `2026-03-07-bootstrap-migration-managed-db.md`
+- **Eval DEMO Double Count Fix** (1 connections) — `2026-04-01-eval-demo-double-count.md`
+- **Guardrails Allow Hazard Queries** (1 connections) — `2026-03-03-guardrails-allow-hazard-queries.md`
+- **Restore Gemini AI Settings** (1 connections) — `2026-03-18-restore-gemini-ai-settings.md`
 
 ## Relationships
 
-- [[Tier-Aware Image Transport for Gemini Fallback]] (5 shared connections)
-- [[Chat V2 Groundedness Eval]] (3 shared connections)
-- [[Fallback Chain Pattern]] (3 shared connections)
-- [[fe-common]] (1 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `/Users/leonardobrito/.claude/wiki/raw/2026-03-03-guardrails-allow-hazard-queries.md`
-- `/Users/leonardobrito/.claude/wiki/raw/2026-03-07-bootstrap-migration-managed-db.md`
-- `/Users/leonardobrito/.claude/wiki/raw/2026-03-18-restore-gemini-ai-settings.md`
-- `/Users/leonardobrito/.claude/wiki/raw/2026-03-19-bbox-yxyx-standardization.md`
-- `/Users/leonardobrito/.claude/wiki/raw/2026-03-23-bedrock-converse-unification.md`
-- `/Users/leonardobrito/.claude/wiki/raw/2026-03-23-hazard-eval-compression.md`
-- `/Users/leonardobrito/.claude/wiki/raw/2026-03-24-hazard-eval-model-upgrade-retry.md`
-- `/Users/leonardobrito/.claude/wiki/raw/2026-04-01-eval-demo-double-count.md`
+- `2026-03-03-guardrails-allow-hazard-queries.md`
+- `2026-03-07-bootstrap-migration-managed-db.md`
+- `2026-03-11-declarative-config-deep-health.md`
+- `2026-03-16-ai-studio-image-transport.md`
+- `2026-03-18-restore-gemini-ai-settings.md`
+- `2026-04-01-eval-demo-double-count.md`
+- `2026-04-03-consolidate-ai-orch-shared-modules.md`
 
 ## Audit Trail
 
-- EXTRACTED: 30 (79%)
-- INFERRED: 8 (21%)
+- EXTRACTED: 27 (79%)
+- INFERRED: 7 (21%)
 - AMBIGUOUS: 0 (0%)
 
 ---

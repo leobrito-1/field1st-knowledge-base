@@ -1,17 +1,17 @@
 # Chat V2 Groundedness Eval
 
-> God node · 4 connections · `~/.claude/wiki/raw/2026-03-02-chatv2-groundedness-eval.md`
+> God node · 4 connections · `2026-03-02-chatv2-groundedness-eval.md`
 
 ## Connections by Relation
 
 ### contains
-- [[AI Orchestration Package]] `EXTRACTED`
+- [[ai-orchestration]] `EXTRACTED`
 
-### implements
+### exemplifies
 - [[Async Fail-Open Observability]] `EXTRACTED`
 - [[Langfuse Observability]] `EXTRACTED`
 
-### semantically_similar_to
+### same_subsystem
 - [[Java Langfuse Observability]] `INFERRED`
 
 ---

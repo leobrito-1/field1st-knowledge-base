@@ -1,16 +1,18 @@
 # Consolidate AI Orch Shared Modules
 
-> God node · 4 connections · `~/.claude/wiki/raw/2026-04-03-consolidate-ai-orch-shared-modules.md`
+> God node · 4 connections · `2026-04-03-consolidate-ai-orch-shared-modules.md`
 
 ## Connections by Relation
 
-### conceptually_related_to
-- [[AI Studio Image Transport]] `INFERRED`
-- [[Vertex Server-Side Image Fetch]] `INFERRED`
-- [[Declarative Config and Deep Health Checks]] `INFERRED`
-
 ### contains
-- [[AI Orchestration Package]] `EXTRACTED`
+- [[ai-orchestration]] `EXTRACTED`
+
+### exemplifies
+- [[Security Hardening (XSS, JWT, WAF, Headers)]] `INFERRED`
+
+### same_subsystem
+- [[AI Studio Image Transport]] `INFERRED`
+- [[Declarative Config Deep Health]] `INFERRED`
 
 ---
 
