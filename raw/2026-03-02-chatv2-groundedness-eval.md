@@ -34,8 +34,7 @@ Added async groundedness evaluator that scores evidence support and page context
 - Combined risk makes triage easier: single score surfaces high hallucination probability.
 
 ## If you're working on something similar
-- Run evals async after response completes — never block the user on observability.
-- Set `CHAT_GROUNDEDNESS_EVAL_ENABLED=true`, `CHAT_GROUNDEDNESS_EVAL_MODEL=gpt-4.1-mini`, `CHAT_GROUNDEDNESS_EVAL_TIMEOUT_MS=8000`.
+qo- Set `CHAT_GROUNDEDNESS_EVAL_ENABLED=true`, `CHAT_GROUNDEDNESS_EVAL_MODEL=gpt-4.1-mini`, `CHAT_GROUNDEDNESS_EVAL_TIMEOUT_MS=8000`.
 - Use `buildEvidenceContext(toolOutputs, maxChars)` to normalize KB and tool outputs.
 - Use `sanitizePageContext(pageContext)` to redact PII before eval.
 - Check `chat_hallucination_risk` score: >0.35 is alert threshold.

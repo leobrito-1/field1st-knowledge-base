@@ -16,6 +16,7 @@ optional:
   - jira
   - packages
   - related
+  - files
 
 types:
   project: string
@@ -29,11 +30,14 @@ types:
   answers: string[]
   packages: string[]
   related: string[]
+  files: string[]
 
 sections:
   required:
-    - Motivation
-    - What changed
-    - Why this approach
-    - Lessons
-    - If you're working on something similar
+    - The problem
+    - What we did
+    - Why this way and not another
+    - What we learned
+    - Technical reference
+  optional:
+    - What we tried that didn't work

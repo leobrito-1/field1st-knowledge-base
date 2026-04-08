@@ -98,11 +98,11 @@ def validate(entry_path: str, mode: str = "pr") -> list[str]:
     # Check required sections
     sections = extract_sections(content)
     required_sections = [
-        "Motivation",
-        "What changed",
-        "Why this approach",
-        "Lessons",
-        "If you're working on something similar",
+        "The problem",
+        "What we did",
+        "Why this way and not another",
+        "What we learned",
+        "Technical reference",
     ]
     for section in required_sections:
         if section not in sections:
