@@ -9,6 +9,7 @@ packages: [infra]
 tags: [ci-cd, infra]
 related: []
 answers: ["GitHub Actions runner went offline after 36 days", "No space left on device on self-hosted runner", "Self-hosted runner not picking up jobs"]
+files: ["infra/github-runner/replace-runner.sh", "infra/github-runner/setup.sh"]
 ---
 
 # Fix offline GitHub Actions runner — add auto-cleanup and replacement script

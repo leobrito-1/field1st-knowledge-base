@@ -10,6 +10,7 @@ packages: [mobile]
 tags: [mobile, react-native]
 related: []
 answers: ["useNotifications fails when offline", "push notification retry manager loops forever offline", "notifications show nothing in airplane mode"]
+files: ["packages/mobile/src/core/components/notifications/notificationRetryManager.ts", "packages/mobile/src/core/components/notifications/useNotifications.ts", "packages/mobile/src/core/data/asyncStorage/offlineActions.ts", "packages/mobile/src/core/data/asyncStorage/offlineNotifications.ts"]
 ---
 
 # Cache notifications for offline use

@@ -9,6 +9,7 @@ packages: [ai-orchestration]
 tags: [typescript, infra]
 related: [2026-04-02-gpt-image-fallback-control-viz]
 answers: ["Gemini preview model returning text instead of image", "No generated image in response from Vertex AI", "Fallback chain dying on first tier without trying alternates", "Model returned 15 text tokens instead of image despite responseModalities IMAGE"]
+files: ["packages/ai-orchestration/src/mastra/features/hazard-control/workflows/control-visualization-workflow.ts", "packages/ai-orchestration/src/mastra/features/hazard-control/workflows/control-viz-utils.ts", "packages/ai-orchestration/src/mastra/features/shared/vertex-error-classification.ts"]
 ---
 
 # Robust control-viz fallback for image refusal and timeouts

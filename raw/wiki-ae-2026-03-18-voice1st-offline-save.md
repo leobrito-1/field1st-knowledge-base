@@ -10,6 +10,7 @@ packages: [mobile]
 tags: [mobile, react-native, redux]
 related: []
 answers: ["Voice1st fails when offline", "transcript vanished after closing drawer", "Android 10 mic button unresponsive after tapping", "offline voice recording lost on navigation"]
+files: ["packages/mobile/src/core/DataWrapper.tsx", "packages/mobile/src/core/components/Voice1st/Voice1stComponent.tsx", "packages/mobile/src/core/components/Voice1st/Voice1stDrawer.tsx", "packages/mobile/src/core/components/document/DocumentSectionContent.tsx", "packages/mobile/src/core/components/documents/DocumentsResults.tsx"]
 ---
 
 # Offline Voice1st save with Saved Transcripts list

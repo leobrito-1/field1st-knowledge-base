@@ -10,6 +10,7 @@ packages: [mobile]
 tags: [mobile, react-native]
 related: []
 answers: ["Android home screen widget not updating", "widget configuration activity not appearing", "Material You colors crash on pre-Android 12", "POST_NOTIFICATIONS permission missing"]
+files: ["packages/mobile/android/app/src/main/AndroidManifest.xml", "packages/mobile/android/app/src/main/java/com/rtslabs/field1st/MainApplication.java", "packages/mobile/android/app/src/main/java/com/rtslabs/field1st/Ready1stActivityModule.java", "packages/mobile/android/app/src/main/java/com/rtslabs/field1st/Ready1stNotificationService.java", "packages/mobile/android/app/src/main/java/com/rtslabs/field1st/Ready1stWidgetConfigActivity.java"]
 ---
 
 # Android Ready1st home screen widget and ongoing notification

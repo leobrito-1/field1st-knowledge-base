@@ -9,6 +9,7 @@ packages: [service]
 tags: [ci-cd, infra]
 related: []
 answers: ["GitHub Actions Slack notification not triggering", "Docker build running twice for same commit", "ECS task definition not updating after docker push", "deploy workflow taking too long"]
+files: [".github/actions/slack-deploy-notify/action.yml", ".github/workflows/_deploy-api.yml", ".github/workflows/_deploy-web.yml", ".github/workflows/deploy-ai-orchestration-dev.yml", ".github/workflows/deploy-demo.yml"]
 ---
 
 # Consolidate deploy workflows with shared Slack action and image caching

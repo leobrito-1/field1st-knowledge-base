@@ -9,6 +9,7 @@ packages: [infra]
 tags: [infra, cloudfront, security]
 related: []
 answers: ["ssh tunnel timing out during database creation", "macOS incompatible with hashicorp/template provider", "make-secrets.sh requires hardcoded source prefix", "create-database.sh ssh tunnel only sleeps 10s before disconnecting"]
+files: [".github/workflows/deploy-prod.yml", "packages/infra/scripts/create-database.sh", "packages/infra/scripts/make-secrets.sh", "packages/infra/terraform/live/ff-prod/tenants/rts.prod/ai-orchestration/terragrunt.hcl", "packages/infra/terraform/live/ff-prod/tenants/rts.prod/db/terragrunt.hcl"]
 ---
 
 # Add RTS prod tenant as internal staging environment

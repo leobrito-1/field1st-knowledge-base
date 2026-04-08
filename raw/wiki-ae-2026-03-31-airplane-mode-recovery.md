@@ -10,6 +10,7 @@ packages: [fe-common, mobile]
 tags: [mobile, react-native, fe-common]
 related: [2026-03-31-airplane-mode-detection]
 answers: ["app freezes after airplane mode toggle", "blank screen after going offline", "duplicate documents created after sync", "offline photos not persisting", "force close required after airplane mode"]
+files: ["packages/fe-common/src/api/network.ts", "packages/mobile/src/core/DataWrapper.tsx", "packages/mobile/src/core/components/document/Section.tsx", "packages/mobile/src/core/data/createOfflineDocument.ts", "packages/mobile/src/core/data/syncOfflineDocuments.ts"]
 ---
 
 # Fix mobile airplane mode recovery cascade failures

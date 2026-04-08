@@ -9,6 +9,7 @@ packages: [ai-orchestration]
 tags: [typescript, security]
 related: []
 answers: ["AI Studio returns 400 INVALID_ARGUMENT after Vertex quota failure", "hazard image analysis fails with INVALID_ARGUMENT on AI Studio fallback", "AI Studio rejects gs:// media input"]
+files: ["packages/ai-orchestration/src/mastra/features/hazard/route/hazard-analysis-image-route.ts", "packages/ai-orchestration/src/mastra/features/hazard/schemas/hazard-analysis.ts", "packages/ai-orchestration/src/mastra/features/hazard/schemas/hazard-base.ts", "packages/ai-orchestration/src/mastra/features/hazard/workflows/hazard-image-gemini-workflow.ts", "packages/ai-orchestration/src/mastra/features/shared/safe-public-image-url.ts"]
 ---
 
 # Tier-aware image transport for Gemini hazard fallback chain

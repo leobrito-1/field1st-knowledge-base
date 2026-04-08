@@ -10,6 +10,7 @@ packages: [mobile]
 tags: [mobile, react-native, redux]
 related: []
 answers: ["VLM scan fails when offline", "Start from Scan shows error in airplane mode", "iOS picker buttons unresponsive after first use", "scanned files lost after navigation offline"]
+files: ["packages/mobile/src/core/api/document/getDocuments.ts", "packages/mobile/src/core/components/documents/DocumentsResults.tsx", "packages/mobile/src/core/data/syncQueuedOfflineActions.ts", "packages/mobile/src/core/screens/NewDocumentDrawer.tsx", "packages/mobile/src/core/screens/launchpad/NewDocumentView.tsx"]
 ---
 
 # VLM offline scan with document list placeholder and sync status

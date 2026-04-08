@@ -10,6 +10,7 @@ packages: [ai-orchestration]
 tags: [typescript, infra, security]
 related: []
 answers: ["process.env is undefined in ai-orchestration at runtime", "ai-orchestration has multiple pg Pool instances", "Stack traces leaking in chat 500 responses", "Auth token cache growing unbounded in memory"]
+files: ["packages/ai-orchestration/src/config-schema.ts", "packages/ai-orchestration/src/mastra/features/ai-settings/sql.ts", "packages/ai-orchestration/src/mastra/features/auth/auth.ts", "packages/ai-orchestration/src/mastra/features/chatv2/chat-v2-route.ts", "packages/ai-orchestration/src/mastra/features/chatv2/guardrails/guardrails-agent.ts"]
 ---
 
 # Consolidate ai-orchestration shared modules and env validation

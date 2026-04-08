@@ -9,6 +9,7 @@ packages: [ai-orchestration]
 tags: [testing, typescript]
 related: [2026-03-23-bedrock-converse-unification]
 answers: ["Hazard eval Slack notification showing 0/0 passed instead of 5/5", "Anthropic rejected 5.03 MB JPEG as 6.7 MB after Converse API overhead", "Vitest test results reset between test files"]
+files: ["packages/ai-orchestration/src/mastra/features/hazard/workflows/hazard-bedrock-config.ts", "packages/ai-orchestration/src/mastra/features/hazard/workflows/hazard-bedrock-image.ts", "packages/ai-orchestration/src/mastra/features/shared/vertex-fallback-chain.ts"]
 ---
 
 # Hazard eval result accumulation and image compression fixes

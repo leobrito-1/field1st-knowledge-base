@@ -9,6 +9,7 @@ packages: [infra]
 tags: [infra, cloudfront, security]
 related: []
 answers: ["CloudFront blocked pentester from Philippines", "rts.field1st.com returns 403 from outside US", "How to allow specific country through CloudFront geo-restriction"]
+files: ["packages/infra/terraform/live/ff-prod/tenants/rts.prod/terragrunt.hcl"]
 ---
 
 # Allow Philippines access to rts.prod CloudFront

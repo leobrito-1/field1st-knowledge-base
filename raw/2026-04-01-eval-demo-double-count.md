@@ -9,6 +9,7 @@ packages: [ai-orchestration]
 tags: [ci-cd, testing]
 related: []
 answers: ["Eval tests show double count like 76/80 instead of 39/40", "DEMO eval tests include DEV results", "Stale .current-run-id marker causes test aggregation across environments"]
+files: [".github/workflows/ai-integration-daily.yml"]
 ---
 
 # Fix DEMO eval tests joining DEV run ID

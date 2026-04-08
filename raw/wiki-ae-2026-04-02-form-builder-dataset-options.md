@@ -10,6 +10,7 @@ packages: [fe-common, web, mobile]
 tags: [fe-common, web, mobile, typescript, react, react-native]
 related: []
 answers: ["defenses not showing for dataset answer options", "selection lookup failing for dataset-based questions", "dataset options not editable in form builder"]
+files: ["packages/fe-common/src/functions/util/dataSource.ts", "packages/fe-common/src/functions/util/dataSourceSelectionMerge.ts", "packages/fe-common/src/functions/util/formEntity.ts", "packages/fe-common/src/functions/util/index.ts", "packages/fe-common/src/hooks/useSelectedTags.ts"]
 ---
 
 # Form builder dataset options expansion and selection lookup fix

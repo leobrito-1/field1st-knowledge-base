@@ -9,6 +9,7 @@ packages: [service]
 tags: [security, spring-boot]
 related: [2026-04-01-xss-sanitization-dompurify]
 answers: ["JWT token in URL parameters", "Token in server access logs", "Token in browser history", "Token exposed in referrer header"]
+files: ["packages/service/base-lib/src/main/java/io/powerfields/forms/config/BaseSecurityConfiguration.java", "packages/service/base-lib/src/main/java/io/powerfields/forms/security/jwt/JWTFilter.java"]
 ---
 
 # Restrict JWT token resolution to headers only

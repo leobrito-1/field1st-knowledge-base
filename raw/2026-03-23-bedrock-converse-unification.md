@@ -9,6 +9,7 @@ packages: [ai-orchestration]
 tags: [typescript]
 related: [2026-03-23-hazard-eval-compression, 2026-03-19-bbox-yxyx-standardization]
 answers: ["Nova Pro returning malformed JSON without structured output", "Two separate Bedrock code paths invokeModel and converse", "Dimension resize affecting bounding box accuracy"]
+files: ["packages/ai-orchestration/src/mastra/features/ai-settings/config.ts", "packages/ai-orchestration/src/mastra/features/ai-settings/utils.ts", "packages/ai-orchestration/src/mastra/features/hazard/workflows/bedrock-model-resolution.ts", "packages/ai-orchestration/src/mastra/features/hazard/workflows/hazard-bedrock-adapters.ts", "packages/ai-orchestration/src/mastra/features/hazard/workflows/hazard-bedrock-config.ts"]
 ---
 
 # Unified Bedrock hazard analysis on Converse API with Opus 4.6 and Qwen3 VL

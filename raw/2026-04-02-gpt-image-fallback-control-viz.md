@@ -10,6 +10,7 @@ packages: [ai-orchestration]
 tags: [typescript, infra]
 related: [2026-04-02-control-viz-fallback-image-refusal]
 answers: ["Control viz failing after all Gemini tiers exhausted", "Vertex quota errors causing control visualization 500s", "gemini-3.1-flash-image-preview not returning images"]
+files: ["packages/ai-orchestration/src/mastra/features/ai-settings/config.ts", "packages/ai-orchestration/src/mastra/features/hazard-control/route/hazard-route.ts", "packages/ai-orchestration/src/mastra/features/hazard-control/workflows/control-visualization-workflow.ts", "packages/ai-orchestration/src/mastra/features/hazard-control/workflows/control-viz-openai.ts", "packages/ai-orchestration/src/mastra/features/hazard-control/workflows/control-viz-utils.ts"]
 ---
 
 # Add GPT-image-1 fallback for control visualization

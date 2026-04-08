@@ -10,6 +10,7 @@ packages: [ai-orchestration]
 tags: [infra, security, typescript]
 related: []
 answers: ["Cannot fetch content from the provided URL", "Vertex hazard analysis failing with signed URL error", "Signed S3 URL expired before Vertex AI processed request"]
+files: ["packages/ai-orchestration/src/mastra/features/hazard/workflows/hazard-image-gemini-workflow.ts", "packages/ai-orchestration/src/mastra/shared/image/fetch-image.ts"]
 ---
 
 # Fetch HTTPS images server-side for Vertex hazard analysis

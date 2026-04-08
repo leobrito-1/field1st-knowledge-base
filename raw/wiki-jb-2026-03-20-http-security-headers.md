@@ -10,6 +10,7 @@ packages: [infra, service, ai-orchestration]
 tags: [infra, security, cloudfront, spring-boot]
 related: []
 answers: ["Missing HTTP security headers", "CloudFront CSP placeholder default-src self", "X-Frame-Options disabled with frameOptions disable", "AI orchestration has no security headers"]
+files: ["packages/ai-orchestration/src/mastra/index.ts", "packages/infra/terraform/master/app_tenant/domain/main.tf", "packages/service/base-lib/src/main/java/io/powerfields/forms/config/BaseSecurityConfiguration.java"]
 ---
 
 # HTTP security headers across CloudFront, Spring Boot, and AI orchestration

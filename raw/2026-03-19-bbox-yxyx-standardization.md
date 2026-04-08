@@ -9,6 +9,7 @@ packages: [ai-orchestration]
 tags: [typescript]
 related: [2026-03-23-bedrock-converse-unification]
 answers: ["Gemini returning identical bounding boxes for all 10 hazards", "Gemini hazards all titled Trip Hazard Tools Debris with duplicate boxes", "Gemini bounding box quality degraded after prompt change"]
+files: ["packages/ai-orchestration/src/mastra/features/hazard/schemas/hazard-base.ts", "packages/ai-orchestration/src/mastra/features/hazard/workflows/hazard-image-bedrock-workflow.ts", "packages/ai-orchestration/src/mastra/features/hazard/workflows/hazard-image-gemini-workflow.ts", "packages/ai-orchestration/src/mastra/features/hazard/workflows/hazard-image-openai-workflow.ts", "packages/ai-orchestration/src/mastra/features/hazard/workflows/workflow-utils.ts"]
 ---
 
 # Standardize bounding box coordinates to yxyx format

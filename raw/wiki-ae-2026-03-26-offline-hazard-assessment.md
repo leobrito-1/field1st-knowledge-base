@@ -10,6 +10,7 @@ packages: [fe-common, mobile, web]
 tags: [mobile, web, fe-common, react-native, redux]
 related: []
 answers: ["hazard assessment shows nothing when offline", "modal shows Error Analyzing Image instead of offline UX", "custom hazards disappear after AI analysis", "energy sources not syncing between web and mobile"]
+files: ["packages/fe-common/src/functions/hazardAnalysis/hazardAnalysisStatus.ts", "packages/fe-common/src/functions/hazardAnalysis/index.ts", "packages/fe-common/src/i18n/index.ts", "packages/fe-common/src/index.ts", "packages/fe-common/src/utils/hazard/hazardPointTransformers.ts"]
 ---
 
 # Offline hazard assessment support with cross-platform sync

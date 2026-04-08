@@ -10,6 +10,7 @@ packages: [fe-common, web, mobile]
 tags: [fe-common, web, mobile, typescript, react, react-native]
 related: []
 answers: ["transcripts disappear after page refresh", "microphone icon not showing on documents with pending transcripts", "mobile and web transcript storage drifting"]
+files: ["packages/fe-common/src/api/storage/index.ts", "packages/fe-common/src/api/storage/transcriptQueue.ts", "packages/mobile/src/core/DataWrapper.tsx", "packages/mobile/src/core/components/Voice1st/Voice1stComponent.tsx", "packages/mobile/src/core/components/Voice1st/Voice1stDrawer.tsx"]
 ---
 
 # Voice1st transcript auto-save and shared queue

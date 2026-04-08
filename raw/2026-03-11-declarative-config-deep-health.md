@@ -9,6 +9,7 @@ packages: [ai-orchestration]
 tags: [typescript, infra, testing]
 related: []
 answers: ["ai-orchestration config validation fails silently", "missing env var not caught until runtime", "health check only returns ok/down without dependency details", "operators cannot verify AWS/GCS/Postgres connectivity before deploying"]
+files: ["packages/ai-orchestration/src/config-schema.ts", "packages/ai-orchestration/src/config.ts", "packages/ai-orchestration/src/health/probes.ts", "packages/ai-orchestration/src/health/types.ts", "packages/ai-orchestration/src/mastra/index.ts"]
 ---
 
 # Declarative config validation and deep health checks

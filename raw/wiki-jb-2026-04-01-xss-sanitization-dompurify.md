@@ -10,6 +10,7 @@ packages: [web, service]
 tags: [security, web, spring-boot, testing]
 related: [2026-03-18-jwt-url-token-removal]
 answers: ["Stored XSS via dangerouslySetInnerHTML", "User content not sanitized", "Defense description XSS", "OE description XSS", "img onerror executing JavaScript"]
+files: ["packages/web/packages/field-first/src/components/Document/Defenses/DefenseDetails.tsx", "packages/web/packages/field-first/src/components/Document/OperationalExperiences/components/OECard.tsx", "packages/web/packages/field-first/src/components/clientAdmin/documents/drawer/ResponseList.tsx", "packages/web/packages/shared/src/components/Document/DocumentForm/Content.tsx", "packages/web/packages/shared/src/components/Document/DocumentForm/DrawingField.tsx"]
 ---
 
 # Stored XSS prevention with three-level DOMPurify sanitization

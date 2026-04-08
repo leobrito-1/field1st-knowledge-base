@@ -9,6 +9,7 @@ packages: [web]
 tags: [web, react, typescript]
 related: []
 answers: ["chart preferences not persisting", "drag and drop not working in CSS Grid", "pinned cards losing sort order"]
+files: ["packages/web/packages/field-first/src/components/clientAdmin/reports/FormReport/BarChartResponse.module.scss", "packages/web/packages/field-first/src/components/clientAdmin/reports/FormReport/BulkActionsToolbar.module.scss", "packages/web/packages/field-first/src/components/clientAdmin/reports/FormReport/BulkActionsToolbar.tsx", "packages/web/packages/field-first/src/components/clientAdmin/reports/FormReport/ChartSection.module.scss", "packages/web/packages/field-first/src/components/clientAdmin/reports/FormReport/ChartTypeToggle.module.scss"]
 ---
 
 # Reports page drag-and-drop cards with chart toggles

@@ -9,6 +9,7 @@ packages: [ai-orchestration]
 tags: [infra]
 related: []
 answers: ["migration fails with schema rag does not exist", "pgvector extensions not created on RDS", "rag.embeddings table does not exist on new deployment", "migrations work on Docker Compose but fail on managed database"]
+files: ["packages/ai-orchestration/db/migrations/00000000000000_bootstrap_rag_schema.sql"]
 ---
 
 # Bootstrap migration for managed database environments

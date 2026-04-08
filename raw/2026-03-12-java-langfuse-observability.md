@@ -9,6 +9,7 @@ packages: [service]
 tags: [spring-boot, testing, typescript]
 related: []
 answers: ["Voice1st AI call returns finishReason=stop with no tool call", "Langfuse trace failing breaks Voice1st flow", "Pulse1st emits duplicate chat_eval_status scores", "Java AI flows have no observability for input/output/quality"]
+files: ["packages/infra/terraform/master/app_tenant/api_service/alb.tf", "packages/infra/terraform/master/app_tenant/api_service/iam.tf", "packages/infra/terraform/master/app_tenant/api_service/secrets.tf", "packages/infra/terraform/master/app_tenant/api_service/task_def.tf", "packages/infra/terraform/master/app_tenant/domain/variables.tf"]
 ---
 
 # Add Langfuse observability for Java AI flows

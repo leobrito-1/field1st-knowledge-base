@@ -10,6 +10,7 @@ packages: [web, mobile]
 tags: [web, mobile, security]
 related: []
 answers: ["Sentry not receiving events", "production errors not tracked", "cant filter Sentry by tenant", "Sentry environment tag missing", "web Sentry broken in production"]
+files: ["packages/mobile/src/core/App.tsx", "packages/mobile/src/shared/auth/useLogin.tsx", "packages/mobile/src/shared/types/react-native-dotenv.d.ts", "packages/mobile/src/storm/App.tsx", "packages/web/packages/field-first/src/index.tsx"]
 ---
 
 # Enable Sentry tracking for web and mobile environments

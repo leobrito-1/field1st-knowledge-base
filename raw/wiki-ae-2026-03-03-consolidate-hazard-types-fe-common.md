@@ -9,6 +9,7 @@ packages: [fe-common, web, mobile]
 tags: [fe-common, web, mobile, typescript]
 related: []
 answers: ["hazard types differ between web and mobile", "structureVersion hardcoded", "type drift across packages"]
+files: ["packages/fe-common/src/index.ts", "packages/fe-common/src/types/hazardAnalysis.ts", "packages/fe-common/src/utils/hazard/controlUtils.ts", "packages/fe-common/src/utils/hazard/hazardPointTransformers.ts", "packages/fe-common/src/utils/hazard/index.ts"]
 ---
 
 # Consolidate hazard types and utils into fe-common

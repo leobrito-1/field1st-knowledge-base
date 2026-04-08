@@ -10,6 +10,7 @@ packages: [mobile, fe-common]
 tags: [mobile, react-native, redux]
 related: []
 answers: ["offline documents not visible after sync", "created document offline but cant find it", "Needs Review banner not appearing"]
+files: ["packages/mobile/src/core/components/documents/DocumentsResults.tsx", "packages/mobile/src/core/navigation/Navigation.tsx", "packages/mobile/src/shared/components/NeedsReviewBanner/NeedsReviewBanner.styles.ts", "packages/mobile/src/shared/components/NeedsReviewBanner/NeedsReviewBanner.tsx", "packages/mobile/src/shared/hooks/useNeedsReviewDocIds.ts"]
 ---
 
 # Mobile offline sync review banner

@@ -9,6 +9,7 @@ packages: [ai-orchestration]
 tags: [typescript, testing]
 related: []
 answers: ["Chat V2 has no quality observability", "No visibility into hallucination risk in Chat V2 responses", "How to score groundedness for RAG chat answers"]
+files: ["packages/ai-orchestration/src/config.ts", "packages/ai-orchestration/src/mastra/features/chatv2/observability/groundedness-evaluator.ts", "packages/ai-orchestration/src/mastra/features/chatv2/orchestrator-workflow-v2.ts", "packages/ai-orchestration/src/mastra/features/observability/langfuse-score-publisher.ts"]
 ---
 
 # Add groundedness evaluation and observability for Chat V2

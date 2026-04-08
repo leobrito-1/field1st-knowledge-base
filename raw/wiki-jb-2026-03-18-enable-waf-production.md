@@ -9,6 +9,7 @@ packages: [infra]
 tags: [infra, waf, cloudfront, security]
 related: [2026-03-22-waf-upload-path-exemptions, 2026-04-07-waf-genericlfi-body-cloudfront-exemption]
 answers: ["Production tenants have no WAF", "All 9 tenants exposed without WAF", "WAF not attached to CloudFront", "CloudFront distribution has empty web_acl_id", "WAF conditional logic backwards"]
+files: ["packages/infra/terraform/master/app_tenant/api_service/waf.tf", "packages/infra/terraform/master/app_tenant/domain/main.tf", "packages/infra/terraform/master/app_tenant/domain/waf.tf", "packages/infra/terraform/master/optional_modules/ai_orchestration_service/waf.tf"]
 ---
 
 # Enable WAF for all production services via inverted logic fix

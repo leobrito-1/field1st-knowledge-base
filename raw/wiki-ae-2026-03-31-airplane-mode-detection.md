@@ -10,6 +10,7 @@ packages: [mobile]
 tags: [mobile, react-native]
 related: [2026-03-31-airplane-mode-recovery]
 answers: ["airplane mode detection slow", "offline banner takes 60 seconds to appear", "NetInfo slow to update", "isInternetReachable delay"]
+files: ["packages/mobile/src/core/App.tsx", "packages/mobile/src/core/AppWrapper.tsx", "packages/mobile/src/shared/netinfo/configure.ts", "packages/mobile/src/shared/netinfo/useNetInfoSync.ts", "packages/mobile/src/shared/redux/connection/reducer.ts"]
 ---
 
 # Faster airplane mode offline detection via NetInfo tuning

@@ -9,6 +9,7 @@ packages: [infra]
 tags: [infra, waf, security]
 related: [2026-04-07-waf-genericlfi-body-cloudfront-exemption]
 answers: ["AWS WAF blocking legitimate PUT /api/documents with 9KB body", "SizeRestrictions_BODY blocking requests over 8KB", "CrossSiteScripting_BODY false positive on JPEG PNG binary data"]
+files: ["packages/infra/terraform/master/app_tenant/api_service/waf.tf", "packages/infra/terraform/master/app_tenant/domain/waf.tf", "packages/infra/terraform/master/optional_modules/ai_orchestration_service/waf.tf"]
 ---
 
 # WAF exemptions for file upload and large-body endpoints

@@ -9,6 +9,7 @@ packages: [mobile]
 tags: [mobile, react-native, web, testing]
 related: []
 answers: ["React Native app not running in browser", "Platform.OS is undefined in web build", "AsyncStorage not available on web", "Metro bundler not resolving .web.ts files"]
+files: ["packages/mobile/src/core/App.tsx", "packages/mobile/src/core/AppWrapper.tsx", "packages/mobile/src/core/components/document/DocumentFullPageContent.tsx", "packages/mobile/src/core/components/document/DocumentSectionContent.tsx", "packages/mobile/src/core/nativeModules/ArcGISFeatureModule.web.ts"]
 ---
 
 # Enable Expo Web for Playwright debugging

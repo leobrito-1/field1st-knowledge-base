@@ -9,6 +9,7 @@ packages: [ai-orchestration]
 tags: [typescript]
 related: []
 answers: ["Gemini hazard models missing from ai-settings catalog", "hazard model defaulting to Bedrock instead of Gemini", "Gemini 2.5 Flash not showing in ai-settings"]
+files: ["packages/ai-orchestration/src/mastra/features/ai-settings/config.ts"]
 ---
 
 # Restore Gemini hazard models to ai-settings catalog

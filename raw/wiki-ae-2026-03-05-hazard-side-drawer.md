@@ -9,6 +9,7 @@ packages: [fe-common, web, mobile, service]
 tags: [fe-common, web, mobile, spring-boot, react, react-native]
 related: []
 answers: ["documents not filtering by hazard analysis ID", "nested drawer renders behind first drawer", "Paper Menu not working with Skia Canvas"]
+files: ["packages/fe-common/src/api/hazard/hazardAnalysisResource.ts", "packages/fe-common/src/types/api/documentRequestParameters.ts", "packages/fe-common/src/types/api/documentSummaryVm.ts", "packages/mobile/src/core/components/documents/DocumentSideDrawer.tsx", "packages/mobile/src/core/components/hazardAssessments/HazardAssessmentSideDrawer.styles.ts"]
 ---
 
 # Hazard assessment side drawer with related documents

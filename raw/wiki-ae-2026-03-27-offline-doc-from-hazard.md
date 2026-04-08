@@ -10,6 +10,7 @@ packages: [mobile]
 tags: [mobile, react-native, redux]
 related: [2026-03-24-vlm-offline-scan]
 answers: ["Start Document from hazard assessment fails when offline", "document creation shows error in airplane mode", "hazard data lost after going offline"]
+files: ["packages/mobile/src/core/api/document/getDocuments.ts", "packages/mobile/src/core/components/documents/DocumentsResults.tsx", "packages/mobile/src/core/data/asyncStorage/asyncStorage.ts", "packages/mobile/src/core/data/syncQueuedOfflineActions.ts", "packages/mobile/src/core/screens/NewDocumentDrawer.tsx"]
 ---
 
 # Offline queue for document creation from hazard data

@@ -10,6 +10,7 @@ packages: [mobile]
 tags: [mobile, react-native, typescript]
 related: [2026-03-09-rn-081-expo-54-upgrade]
 answers: ["Android New Architecture native module returns null", "react-native-voice TurboModule not found Android", "autolinking failed after React Native upgrade", "react-native-reanimated 4.x worklets not found"]
+files: ["packages/mobile/android/app/src/debug/AndroidManifest.xml", "packages/mobile/android/app/src/main/AndroidManifest.xml", "packages/mobile/android/app/src/main/java/com/rtslabs/field1st/MainActivity.java", "packages/mobile/android/app/src/main/java/com/rtslabs/field1st/MainApplication.java", "packages/mobile/jest.config.ts"]
 ---
 
 # Upgrade React Native 0.81 to 0.83 + Expo 55 + Android New Architecture

@@ -9,6 +9,7 @@ packages: [ai-orchestration]
 tags: [typescript, infra]
 related: []
 answers: ["Could not load the default credentials in PDF extraction", "PDF extraction Vertex client created before ensureGoogleCredsFile runs", "Vercel AI SDK vs Google GenAI SDK for Vertex"]
+files: ["packages/ai-orchestration/src/mastra/features/ingest/lib/pdf-extraction.ts"]
 ---
 
 # Fix PDF extraction Vertex credentials by switching SDKs

@@ -10,6 +10,7 @@ packages: [infra]
 tags: [waf, cloudfront, infra, security]
 related: []
 answers: ["CloudFront returning 403 on image uploads", "GenericLFI_BODY false positive on PNG binary data", "WAF blocking document attachment uploads", "How to add a new body-rule exemption to the CloudFront WAF"]
+files: ["packages/infra/terraform/master/app_tenant/domain/waf.tf"]
 ---
 
 # CloudFront WAF false-positive blocking PNG uploads (GenericLFI_BODY)

@@ -10,6 +10,7 @@ packages: [mobile]
 tags: [mobile, react-native]
 related: []
 answers: ["offline edits overwrite server changes", "admin edits lost after mobile sync", "conflict prompt not appearing", "mobile sync silently overwrites web changes"]
+files: ["packages/mobile/src/core/data/syncOfflineDocuments.ts", "packages/mobile/src/shared/data/syncHelpers.ts", "packages/mobile/src/storm/data/syncOfflineDocuments.ts"]
 ---
 
 # Per-document timestamp conflict detection for offline sync

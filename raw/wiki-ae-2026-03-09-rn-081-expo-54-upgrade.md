@@ -9,6 +9,7 @@ packages: [mobile]
 tags: [mobile, react-native, typescript]
 related: [2026-03-17-rn-083-expo-55-new-arch]
 answers: ["TextInputFocusEventData module not found", "expo-file-system import not found after Expo upgrade", "isHermesEnabled return type mismatch Java", "jcenter repository deprecated Gradle"]
+files: ["packages/mobile/android/app/src/main/java/com/rtslabs/field1st/MainApplication.java", "packages/mobile/src/core/App.tsx", "packages/mobile/src/core/components/dashboard/RecentDocuments/RecentDocumentsContainer.tsx", "packages/mobile/src/core/components/document/Section.tsx", "packages/mobile/src/core/components/form/widgets/Defense.tsx"]
 ---
 
 # Upgrade React Native 0.79 to 0.81 / Expo 53 to 54

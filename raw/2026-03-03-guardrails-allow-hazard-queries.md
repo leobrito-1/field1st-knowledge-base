@@ -9,6 +9,7 @@ packages: [ai-orchestration]
 tags: [typescript, security]
 related: []
 answers: ["Guardrails blocking legitimate hazard assessment questions", "Chat guardrails overly strict on safety scenario analysis", "Guardrails blocking what is the hazard of X questions"]
+files: ["packages/ai-orchestration/src/mastra/features/chatv2/guardrails/guardrails-agent.ts"]
 ---
 
 # Allow hazard/risk scenario questions in Chat V2 guardrails
