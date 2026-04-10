@@ -14,19 +14,19 @@ files: [".github/workflows/ai-integration-daily.yml"]
 
 # Fix DEMO eval tests joining DEV run ID
 
-## Motivation
+## The problem
 The daily AI integration workflow runs eval tests against DEV, then DEMO. DEMO tests were incorrectly appending to the DEV run, causing test counts to double (e.g., 76/80 shown instead of 39/40 for DEMO).
 
-## What changed
+## What we did
 Added `rm -f test-artifacts/latest/.current-run-id` between DEV and DEMO test runs in `.github/workflows/ai-integration-daily.yml`.
 
-## Why this approach
+## Why this way and not another
 The `.current-run-id` marker persists across environments within a single workflow execution. Clearing it forces DEMO to start a fresh run instead of joining DEV's run.
 
-## Lessons
+## What we learned
 The eval test harness uses `.current-run-id` to group tests into runs. When multiple environments run sequentially in the same workflow, the marker must be cleared between them to prevent cross-environment aggregation.
 
-## If you're working on something similar
+## Technical reference
 - Look for `.current-run-id` in `test-artifacts/latest/` if test counts seem aggregated.
 - Clear the marker between environment steps: `rm -f test-artifacts/latest/.current-run-id`.
 - Check other workflows with multi-environment eval runs for the same pattern.

@@ -84,7 +84,7 @@ def validate(entry_path: str, mode: str = "pr") -> list[str]:
             errors.append(f"Missing required field: {field}")
 
     # Check list fields are actually lists
-    list_fields = ["tags", "answers", "packages", "related"]
+    list_fields = ["tags", "answers", "packages", "related", "files"]
     for field in list_fields:
         if field in fm and not isinstance(fm[field], list):
             errors.append(f"Field '{field}' must be a list, got: {type(fm[field]).__name__}")

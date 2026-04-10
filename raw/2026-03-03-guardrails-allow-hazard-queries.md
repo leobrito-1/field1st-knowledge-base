@@ -14,23 +14,23 @@ files: ["packages/ai-orchestration/src/mastra/features/chatv2/guardrails/guardra
 
 # Allow hazard/risk scenario questions in Chat V2 guardrails
 
-## Motivation
+## The problem
 Users were asking legitimate safety analysis questions ("What is the hazard of confined space entry?") and the guardrails were blocking them. The system was over-indexed on danger keywords and not distinguishing between defensive safety analysis and requests for wrongdoing.
 
-## What changed
+## What we did
 Updated guardrails agent prompt to explicitly allow hazard/risk assessment questions, even when hypothetical or scenario-based, unless they also contain explicit wrongdoing or policy bypass intent. Added decision priority rules.
 
-## Why this approach
+## Why this way and not another
 - Decision priority: first check if message is about identifying/assessing/preventing hazard/risk. If yes, allow unless requesting wrongdoing.
 - Changed from "if uncertain, block" to "if uncertain and safety-related, allow."
 - Danger words (confined space, fire, explosion) are expected in legitimate safety work — they don't mean block.
 
-## Lessons
+## What we learned
 - Guardrails that over-index on keywords create false positives when the domain itself involves hazards.
 - Safety/risk analysis is defensive by nature — blocking it undermines the product's core value.
 - Decision priority is key: check intent first (assess vs exploit), then context, then block only on wrongdoing.
 
-## If you're working on something similar
+## Technical reference
 - Explicitly enumerate allowed intents in the guardrails prompt: "identify, assess, compare, explain, prevent, reduce."
 - Add decision priority rubric so the model evaluates in order.
 - Only block on explicit wrongdoing — not on domain-specific danger words.

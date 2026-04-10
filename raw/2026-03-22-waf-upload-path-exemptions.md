@@ -14,23 +14,23 @@ files: ["packages/infra/terraform/master/app_tenant/api_service/waf.tf", "packag
 
 # WAF exemptions for file upload and large-body endpoints
 
-## Motivation
+## The problem
 AWS WAF's `AWSManagedRulesCommonRuleSet` was blocking legitimate production traffic on dev across three services. `SizeRestrictions_BODY` blocks bodies over 8KB, affecting document saves. `CrossSiteScripting_BODY` false-positives on binary image data. Confirmed via `aws wafv2 get-sampled-requests` against live dev WAFs.
 
-## What changed
+## What we did
 Set `SizeRestrictions_BODY` to COUNT globally. Override `CrossSiteScripting_BODY` to COUNT in the managed rule group, then added custom re-block rules that fire when the XSS label is present AND the path is NOT a known binary upload endpoint.
 
-## Why this approach
+## Why this way and not another
 - `SizeRestrictions_BODY` at 8KB is too low for legitimate JSON endpoints. Rate limiting already caps abuse per IP.
 - Count-then-reblock pattern is precise: override to COUNT (labels still applied), then custom rules conditionally re-block based on label + path.
 - XSS body scanning stays enforced on all JSON endpoints.
 
-## Lessons
+## What we learned
 - Managed rule label keys use title-case: `SizeRestrictions_Body` and `CrossSiteScripting_Body` (not snake_case). Confirmed via `aws wafv2 get-sampled-requests`.
 - Path matching needs transformation guards: use `URL_DECODE` + `LOWERCASE` with `STARTS_WITH` to prevent encoded traversal bypasses.
 - Binary upload paths are stable and identifiable by scanning routes for multipart uploads, base64 images, or raw byte proxying.
 
-## If you're working on something similar
+## Technical reference
 - Check `waf.tf` in `app_tenant/domain/`, `app_tenant/api_service/`, and `optional_modules/ai_orchestration_service/` for the three WAF configs.
 - When adding a new file upload endpoint, add its path prefix to the XSS-exempt path list in the relevant WAF.
 - Use AWS WAF label matching: managed rules apply labels even when overridden to COUNT. Custom rules match on labels + conditions.

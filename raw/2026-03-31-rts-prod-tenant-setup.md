@@ -14,23 +14,23 @@ files: [".github/workflows/deploy-prod.yml", "packages/infra/scripts/create-data
 
 # Add RTS prod tenant as internal staging environment
 
-## Motivation
+## The problem
 The team needed an internal pre-production staging environment in the prod AWS account to validate releases before deploying to customer tenants. This tenant mirrors production at smaller scale.
 
-## What changed
+## What we did
 Added full tenant config (`rts.prod`) in `ff-prod` with ECS cluster, Aurora DB, main app, and AI orchestration. Fixed infra scripts to support non-default keystore sources and extended SSH tunnel timeouts. Added Docker tooling for running Terraform 1.0.2 on macOS.
 
-## Why this approach
+## Why this way and not another
 - Docker for local Terraform: Apple Silicon is incompatible with `hashicorp/template` provider.
 - Flexible secret source: `make-secrets.sh` now accepts optional 3rd arg for source prefix.
 - SSH tunnel timeout: Increased from 10s to 120s to prevent premature disconnection during slow database creation.
 
-## Lessons
+## What we learned
 - SSH tunnel `sleep 10` was failing mid-operation for database creation. 120s fixed the race.
 - Local Terraform setup needs Docker on Apple Silicon due to template provider binary incompatibility.
 - Lambda zip must be downloaded from AWS, not built locally (Go version mismatch in Dockerfile).
 
-## If you're working on something similar
+## Technical reference
 - Use Docker image `ff-terragrunt:local` (see `packages/infra/Dockerfile.terragrunt`).
 - AWS profiles need legacy SSO fields (`sso_start_url`, `sso_region`), not `sso_session`.
 - Run `make-secrets.sh` with 3rd arg for custom keystore source.

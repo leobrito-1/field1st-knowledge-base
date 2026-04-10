@@ -14,21 +14,21 @@ files: ["packages/infra/terraform/live/ff-prod/tenants/rts.prod/terragrunt.hcl"]
 
 # Allow Philippines access to rts.prod CloudFront
 
-## Motivation
+## The problem
 A pentester based in the Philippines could not reach `rts.field1st.com` because all CloudFront distributions enforce US-only geo-restriction by default.
 
-## What changed
+## What we did
 Added `extra_country_codes = ["PH"]` to `packages/infra/terraform/live/ff-prod/tenants/rts.prod/terragrunt.hcl`, changing the CloudFront geo-restriction from `["US"]` to `["PH", "US"]` for rts.prod only.
 
-## Why this approach
+## Why this way and not another
 - Uses existing `extra_country_codes` variable — no module changes required.
 - Scoped to single tenant — all other prod tenants remain US-only.
 
-## Lessons
+## What we learned
 - CloudFront geo-restrictions apply at the distribution level, not the WAF. The `extra_country_codes` variable already existed in the Terraform module — check module inputs before writing new ones.
 - Applied via `terragrunt apply -target=module.domain` to avoid full tenant rebuild.
 
-## If you're working on something similar
+## Technical reference
 - Find the tenant's `terragrunt.hcl` in `packages/infra/terraform/live/<environment>/tenants/<tenant>/`.
 - Add `extra_country_codes = ["<ISO-3166-1 alpha-2 code>"]` to the `inputs` block.
 - Run `terragrunt apply -target=module.domain` from the tenant directory.

@@ -14,26 +14,26 @@ files: ["packages/ai-orchestration/src/config.ts", "packages/ai-orchestration/sr
 
 # Add groundedness evaluation and observability for Chat V2
 
-## Motivation
+## The problem
 Chat V2 responses had no automated quality assessment. We needed to detect when answers were unsupported by evidence or contradicted page context, without blocking the response or adding latency.
 
-## What changed
+## What we did
 Added async groundedness evaluator that scores evidence support and page context alignment after each Chat V2 response. Publishes scores to Langfuse. Added config for model, timeouts, thresholds, and truncation limits.
 
-## Why this approach
+## Why this way and not another
 - Async non-blocking: evaluation runs after response is sent, never delays the user.
 - Two-part scoring: evidence groundedness (RAG support) + page context alignment (no contradiction).
 - Combined risk: weighted combination (0.7 * evidence + 0.3 * pageContext) surfaces highest-risk answers.
 - Fail-open: if eval fails, publish `eval_error` status but don't break the response flow.
 - Page context is sanitized (emails, phones, sensitive keys) before sending to judge model.
 
-## Lessons
+## What we learned
 - Groundedness judge model needs explicit rubric: >=0.85 strongly supported, 0.65-0.84 mostly supported, <0.65 unsupported.
 - Truncation limits are critical: 12k chars for evidence, 8k for page context prevents token overflow.
 - Evidence extraction must handle multiple tool types: `search-knowledge-base` has nested structure.
 - Combined risk makes triage easier: single score surfaces high hallucination probability.
 
-## If you're working on something similar
+## Technical reference
 qo- Set `CHAT_GROUNDEDNESS_EVAL_ENABLED=true`, `CHAT_GROUNDEDNESS_EVAL_MODEL=gpt-4.1-mini`, `CHAT_GROUNDEDNESS_EVAL_TIMEOUT_MS=8000`.
 - Use `buildEvidenceContext(toolOutputs, maxChars)` to normalize KB and tool outputs.
 - Use `sanitizePageContext(pageContext)` to redact PII before eval.

@@ -14,24 +14,24 @@ files: ["packages/ai-orchestration/src/config-schema.ts", "packages/ai-orchestra
 
 # Declarative config validation and deep health checks
 
-## Motivation
+## The problem
 The old `config.ts` was 270 lines of imperative if/else checks that only verified env vars were present, not that credentials or connections actually worked. Operators deploying to new environments had no way to quickly verify that all dependencies (Postgres, SQS, GCS, Vertex, OpenAI, Langfuse) were reachable.
 
-## What changed
+## What we did
 Replaced hand-written config validation with a declarative Zod schema in `config-schema.ts`. Added a deep health check mode to `/healthz` that verifies each dependency actually works — probes run in parallel with individual 5s timeouts, returning ok/degraded/down per probe.
 
-## Why this approach
+## Why this way and not another
 - Zod schemas are declarative and provide structured error messages on validation failure.
 - Separating schema into `config-schema.ts` allows tests to import it without triggering validation side effects.
 - Critical probes (postgres, sqs, gcs) cause "down" status; non-critical failures (openai, langfuse) cause "degraded"; unconfigured probes show "skip".
 - Default `/healthz` behavior unchanged (fast liveness for load balancers).
 
-## Lessons
+## What we learned
 - Separate schema declaration from validation execution. Tests import `config-schema.ts` without triggering the top-level validation that runs when importing `config.ts`.
 - 27 config tests caught edge cases (numeric bounds, boolean transforms, cross-field rules, defaults) that would have been missed in a straight port from imperative to Zod.
 - Deep health probes verify dependencies work, not just that env vars exist. `GET /healthz?deep=true` runs all probes in parallel.
 
-## If you're working on something similar
+## Technical reference
 - Separate schema from validation execution — export from `config-schema.ts`, import in `config.ts` to run on load.
 - Use individual timeouts per probe (5-10s) and run with `Promise.allSettled()` — prevents slow dependencies from blocking the entire check.
 - Classify probes as critical vs non-critical. Critical failures return "down"; non-critical return "degraded".
