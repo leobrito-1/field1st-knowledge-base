@@ -36,9 +36,9 @@ validate.py            # lints entries against the schema
 health.py              # checks filename policy, log consistency, graph staleness
 ```
 
-## Entry format
+## Knowledge unit
 
-Each entry in `raw/` is a markdown file with YAML frontmatter:
+Each unit in `raw/` is a markdown file with YAML frontmatter:
 
 ```markdown
 ---
